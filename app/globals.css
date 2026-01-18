@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary - Navy */
+  --navy-900: #1e3a5f;
+  --navy-800: #264a73;
+  --navy-700: #2d5a87;
+  --navy-600: #3d6e99;
+  --navy-100: #e8f0f7;
+  --navy-50: #f4f8fb;
+
+  /* Accent - Fern Green */
+  --fern-700: #3d6b4f;
+  --fern-600: #4a7d5e;
+  --fern-500: #5a9470;
+  --fern-400: #7ab592;
+  --fern-100: #e8f3ec;
+  --fern-50: #f3f9f5;
+
+  /* Warm - Tan/Brown */
+  --tan-800: #6b5344;
+  --tan-700: #8b7355;
+  --tan-600: #a68b6a;
+  --tan-500: #c4a882;
+  --tan-400: #d4c4a8;
+  --tan-300: #e5dccb;
+  --tan-200: #f0ebe0;
+  --tan-100: #f7f4ee;
+  --tan-50: #fbfaf7;
+
+  /* Neutrals */
+  --warm-white: #fdfcfa;
+  --warm-gray-100: #f5f3f0;
+  --warm-gray-200: #e8e5e0;
+  --warm-gray-300: #d4d0c8;
+  --warm-gray-500: #8a8578;
+  --warm-gray-700: #5c5850;
+  --warm-gray-900: #3d3a35;
+
+  /* Semantic */
+  --background: var(--warm-white);
+  --foreground: var(--warm-gray-900);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Custom scrollbar for filter panel */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--tan-100);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--tan-400);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--tan-500);
+}

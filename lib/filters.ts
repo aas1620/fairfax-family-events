@@ -104,6 +104,11 @@ export function filterEvents(events: Event[], filters: FilterState): Event[] {
       if (!eventMatchesDateRange(event, dateRange)) return false;
     }
 
+    // Event type filter (Year-Round vs Special Events)
+    if (filters.eventType !== 'all') {
+      if (event.type !== filters.eventType) return false;
+    }
+
     return true;
   });
 
@@ -153,6 +158,7 @@ export function getInitialFilterState(): FilterState {
     ageRange: null,
     datePreset: 'any',
     sortBy: 'date-asc',
+    eventType: 'all',
   };
 }
 
@@ -163,5 +169,6 @@ export function countActiveFilters(filters: FilterState): number {
   if (filters.maxCost !== null) count++;
   if (filters.ageRange !== null) count++;
   if (filters.datePreset !== 'any') count++;
+  if (filters.eventType !== 'all') count++;
   return count;
 }

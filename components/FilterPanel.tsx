@@ -8,9 +8,11 @@ import {
   CITIES,
   DATE_PRESETS,
   SORT_OPTIONS,
+  EVENT_TYPE_PRESETS,
   FilterState,
   DatePreset,
   SortOption,
+  EventTypeFilter,
 } from '@/lib/types';
 
 interface FilterPanelProps {
@@ -56,16 +58,21 @@ export default function FilterPanel({
     onFilterChange({ ...filters, sortBy });
   };
 
+  const handleEventTypeChange = (eventType: EventTypeFilter) => {
+    onFilterChange({ ...filters, eventType });
+  };
+
   const hasActiveFilters =
     filters.activityTypes.length > 0 ||
     filters.cities.length > 0 ||
     filters.maxCost !== null ||
     filters.ageRange !== null ||
-    filters.datePreset !== 'any';
+    filters.datePreset !== 'any' ||
+    filters.eventType !== 'all';
 
   return (
-    <div className={`bg-white rounded-2xl border border-[#e5dccb] p-5 ${className}`}>
-      <div className="flex items-center justify-between mb-5">
+    <div className={`bg-white rounded-2xl border border-[#e5dccb] flex flex-col max-h-[calc(100vh-8rem)] ${className}`}>
+      <div className="flex items-center justify-between p-5 pb-0 mb-5 flex-shrink-0">
         <h2 className="font-semibold text-[#3d3a35] text-lg">Filters</h2>
         {hasActiveFilters && (
           <button
@@ -77,6 +84,7 @@ export default function FilterPanel({
         )}
       </div>
 
+      <div className="overflow-y-auto flex-1 px-5 pb-5 custom-scrollbar">
       {/* Sort By */}
       <div className="mb-6">
         <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2.5">
@@ -93,6 +101,28 @@ export default function FilterPanel({
             </option>
           ))}
         </select>
+      </div>
+
+      {/* Event Type Filter */}
+      <div className="mb-6">
+        <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2.5">
+          Availability
+        </h3>
+        <div className="flex flex-wrap gap-2">
+          {EVENT_TYPE_PRESETS.map((preset) => (
+            <button
+              key={preset.value}
+              onClick={() => handleEventTypeChange(preset.value)}
+              className={`text-sm px-3.5 py-2 rounded-xl transition-all font-medium ${
+                filters.eventType === preset.value
+                  ? 'bg-[#c4a882] text-white shadow-sm'
+                  : 'bg-[#f7f4ee] text-[#5c5850] hover:bg-[#f0ebe0]'
+              }`}
+            >
+              {preset.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Date Filter */}
@@ -217,6 +247,7 @@ export default function FilterPanel({
             </button>
           ))}
         </div>
+      </div>
       </div>
     </div>
   );

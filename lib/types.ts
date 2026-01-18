@@ -50,6 +50,14 @@ export interface Event {
   lastUpdated: string; // ISO date string
 }
 
+export type EventTypeFilter = 'all' | 'recurring' | 'one-time';
+
+export const EVENT_TYPE_PRESETS: { value: EventTypeFilter; label: string }[] = [
+  { value: 'all', label: 'All' },
+  { value: 'recurring', label: 'Year-Round' },
+  { value: 'one-time', label: 'Special Events' },
+];
+
 export interface FilterState {
   activityTypes: ActivityType[];
   cities: string[];
@@ -57,6 +65,7 @@ export interface FilterState {
   ageRange: { min: number; max: number } | null;
   datePreset: DatePreset;
   sortBy: SortOption;
+  eventType: EventTypeFilter;
 }
 
 export const CITIES = [

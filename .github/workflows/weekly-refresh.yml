@@ -1,9 +1,9 @@
- name: Weekly Parks Refresh
+  name: Weekly Parks Refresh
 
   on:
     schedule:
-       # Every Wednesday at 6am ET (10am UTC)
-       - cron: '0 10 * * 3'
+      # Every Wednesday at 6am ET (10am UTC)
+      - cron: '0 10 * * 3'
     workflow_dispatch:
 
   jobs:

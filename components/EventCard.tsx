@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Event, ACTIVITY_LABELS } from '@/lib/types';
+import ExhaustionRating from './ExhaustionRating';
 
 interface EventCardProps {
   event: Event;
@@ -123,17 +124,25 @@ export default function EventCard({ event }: EventCardProps) {
           </p>
 
           {/* Meta info */}
-          <div className="flex items-center justify-between mt-4 pt-4 border-t border-[#f0ebe0]">
-            <span className="text-xs text-[#8a8578] font-medium">
-              {formatAgeRange(event.ageRange)}
-            </span>
-            <span
-              className={`text-sm font-semibold ${
-                isFree ? 'text-[#5a9470]' : 'text-[#6b5344]'
-              }`}
-            >
-              {costDisplay}
-            </span>
+          <div className="mt-4 pt-4 border-t border-[#f0ebe0]">
+            <div className="flex items-center justify-between">
+              <span className="text-xs text-[#8a8578] font-medium">
+                {formatAgeRange(event.ageRange)}
+              </span>
+              <span
+                className={`text-sm font-semibold ${
+                  isFree ? 'text-[#5a9470]' : 'text-[#6b5344]'
+                }`}
+              >
+                {costDisplay}
+              </span>
+            </div>
+            {event.exhaustionRating && (
+              <div className="flex items-center gap-1.5 mt-2">
+                <span className="text-xs text-[#8a8578]">Energy burn:</span>
+                <ExhaustionRating rating={event.exhaustionRating} size="sm" />
+              </div>
+            )}
           </div>
         </div>
       </article>

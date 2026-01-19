@@ -10,9 +10,18 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fairfaxfamily.com'),
   title: 'Fairfax Family - Weekend Activities for Kids',
   description:
     'Discover family-friendly activities, events, and venues in Fairfax County, Virginia. Find the perfect weekend adventure for your family.',
+  openGraph: {
+    siteName: 'Fairfax Family Weekend Adventures',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 };
 
 export default function RootLayout({

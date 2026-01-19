@@ -2,23 +2,32 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { getAllEvents } from '@/lib/data';
+import { getAllEvents, getThisWeekendEvents } from '@/lib/data';
 import { filterEvents, getInitialFilterState, countActiveFilters } from '@/lib/filters';
 import { FilterState } from '@/lib/types';
 import EventList from '@/components/EventList';
 import FilterPanel from '@/components/FilterPanel';
 import MobileFilterDrawer from '@/components/MobileFilterDrawer';
+import QuickRescueButtons from '@/components/QuickRescueButtons';
+import ThisWeekend from '@/components/ThisWeekend';
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(getInitialFilterState());
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [activeRescue, setActiveRescue] = useState<string | null>(null);
 
   const allEvents = getAllEvents();
   const filteredEvents = filterEvents(allEvents, filters);
   const activeFilterCount = countActiveFilters(filters);
+  const weekendEvents = getThisWeekendEvents();
 
   const handleResetFilters = () => {
     setFilters(getInitialFilterState());
+    setActiveRescue(null);
+  };
+
+  const handleQuickRescueFilter = (newFilters: FilterState) => {
+    setFilters(newFilters);
   };
 
   return (
@@ -81,23 +90,26 @@ export default function HomePage() {
           <svg viewBox="0 0 1440 60" fill="none" className="w-full h-auto">
             <path
               d="M0 60V30C240 10 480 0 720 0s480 10 720 30v30H0z"
-              fill="#fdfcfa"
+              fill="#f7f4ee"
             />
           </svg>
         </div>
       </section>
 
+      {/* This Weekend Section */}
+      <ThisWeekend events={weekendEvents} />
+
       {/* Main Content */}
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-2xl font-bold text-[#3d3a35]">
               Discover Activities
             </h2>
             <p className="text-[#8a8578] mt-1">
               {filteredEvents.length} {filteredEvents.length === 1 ? 'activity' : 'activities'}{' '}
-              {activeFilterCount > 0 ? 'matching your filters' : 'to explore'}
+              {activeFilterCount > 0 || activeRescue ? 'matching your filters' : 'to explore'}
             </p>
           </div>
 
@@ -127,6 +139,13 @@ export default function HomePage() {
             )}
           </button>
         </div>
+
+        {/* Quick Rescue Buttons */}
+        <QuickRescueButtons
+          onApplyFilter={handleQuickRescueFilter}
+          activeRescue={activeRescue}
+          setActiveRescue={setActiveRescue}
+        />
 
         {/* Desktop: Sidebar + Grid Layout */}
         <div className="lg:grid lg:grid-cols-4 lg:gap-8">

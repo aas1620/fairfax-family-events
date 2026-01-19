@@ -1,7 +1,9 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getEventById, getAllEvents } from '@/lib/data';
-import { ACTIVITY_LABELS, Event } from '@/lib/types';
+import { ACTIVITY_LABELS, Event, EXHAUSTION_LABELS } from '@/lib/types';
+import ShareButtons from '@/components/ShareButtons';
+import ExhaustionRating from '@/components/ExhaustionRating';
 
 interface EventDetailPageProps {
   params: Promise<{ id: string }>;
@@ -80,9 +82,35 @@ export async function generateMetadata({ params }: EventDetailPageProps) {
     };
   }
 
+  const url = `https://fairfaxfamily.com/events/${event.id}`;
+  const isFree = event.cost.per === 'free' || event.cost.amount === 0;
+  const costLabel = isFree ? 'Free' : `$${event.cost.amount}`;
+  const description = `${event.description.slice(0, 150)}... ${costLabel} | ${event.city}, VA`;
+
   return {
     title: `${event.title} - Fairfax Family`,
     description: event.description,
+    openGraph: {
+      title: `${event.title} | Family Activity in ${event.city}`,
+      description: description,
+      url: url,
+      siteName: 'Fairfax Family Weekend Adventures',
+      type: 'article',
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: event.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${event.title} | Fairfax Family`,
+      description: description,
+      images: ['/og-image.png'],
+    },
   };
 }
 
@@ -174,6 +202,29 @@ export default async function EventDetailPage({ params }: EventDetailPageProps) 
               <p className="text-[#5c5850] leading-relaxed text-lg">{event.description}</p>
             </div>
 
+            {/* Parent Hacks */}
+            {event.parentHacks && event.parentHacks.length > 0 && (
+              <div className="bg-gradient-to-br from-[#fffbf5] to-[#fff8ed] border border-[#f0e6d3] rounded-2xl p-6 mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-xl bg-[#ffecd2] flex items-center justify-center">
+                    <span className="text-xl">💡</span>
+                  </div>
+                  <div>
+                    <h2 className="text-lg font-semibold text-[#6b5344]">Parent Hacks</h2>
+                    <p className="text-sm text-[#a89080]">Tips from local parents</p>
+                  </div>
+                </div>
+                <ul className="space-y-3">
+                  {event.parentHacks.map((hack, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="text-[#c4a882] mt-1">•</span>
+                      <span className="text-[#5c5850]">{hack}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             {/* Seasonal Notes */}
             {event.schedule?.seasonalNotes && (
               <div className="bg-[#f7f4ee] border border-[#e5dccb] rounded-2xl p-5 mb-8">
@@ -223,6 +274,16 @@ export default async function EventDetailPage({ params }: EventDetailPageProps) 
                 <p className="text-[#3d3a35]">{formatAgeRange(event.ageRange)}</p>
               </div>
 
+              {/* Exhaustion Index */}
+              {event.exhaustionRating && (
+                <div className="mb-6 pb-6 border-b border-[#f0ebe0]">
+                  <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2">
+                    Exhaustion Index
+                  </h3>
+                  <ExhaustionRating rating={event.exhaustionRating} showLabel size="md" />
+                </div>
+              )}
+
               {/* Address */}
               <div className="mb-6">
                 <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2">
@@ -245,6 +306,13 @@ export default async function EventDetailPage({ params }: EventDetailPageProps) 
               >
                 Visit Website
               </a>
+
+              {/* Share Buttons */}
+              <ShareButtons
+                url={`https://fairfaxfamily.com/events/${event.id}`}
+                title={event.title}
+                description={event.description}
+              />
 
               {/* Source attribution */}
               <p className="mt-4 text-xs text-center text-[#d4d0c8]">

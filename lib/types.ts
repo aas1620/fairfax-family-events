@@ -37,6 +37,10 @@ export interface Event {
   ageRange: { min: number; max: number };
   cost: { amount: number; per: 'person' | 'family' | 'free' };
 
+  // Parent-focused features
+  exhaustionRating?: number; // 1-5: How tired will your kid be? (5 = "They'll sleep in the car")
+  parentHacks?: string[]; // Tips from parents
+
   // Meta
   sourceUrl: string;
   source:
@@ -127,3 +131,12 @@ export const DATE_PRESETS: { value: DatePreset; label: string }[] = [
   { value: 'this-month', label: 'This Month' },
   { value: 'next-month', label: 'Next Month' },
 ];
+
+// Exhaustion Index labels - how tired will your kid be?
+export const EXHAUSTION_LABELS: Record<number, string> = {
+  1: 'Mostly sitting/watching',
+  2: 'Light activity',
+  3: 'Moderate energy burn',
+  4: 'High energy burn',
+  5: "They'll sleep in the car",
+};

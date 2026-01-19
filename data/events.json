@@ -663,8 +663,8 @@
     "title": "MLK Service and Learning Day",
     "description": "Introduce your young ones to Martin Luther King, Jr. Day at the…",
     "type": "one-time",
-    "startDate": "2026-01-19T16:00:00",
-    "endDate": "2026-01-19T22:30:00",
+    "startDate": "2026-01-19T11:00:00",
+    "endDate": "2026-01-19T12:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -764,8 +764,8 @@
     "title": "Dark Sky Education and Celebration Event",
     "description": "Observatory Park at Turner Farm will host a Dark Sky education and celebration…",
     "type": "one-time",
-    "startDate": "2026-01-23T23:00:00",
-    "endDate": "2026-01-24T05:30:00",
+    "startDate": "2026-01-23T18:00:00",
+    "endDate": "2026-01-23T19:30:00",
     "venue": "Turner Farm",
     "address": "925 Springvale Rd",
     "city": "Great Falls",
@@ -793,8 +793,8 @@
     "title": "Wonderful Woodpeckers",
     "description": "Woodpeckers are keystone species which help many other forest…",
     "type": "one-time",
-    "startDate": "2026-01-24T14:30:00",
-    "endDate": "2026-01-24T21:00:00",
+    "startDate": "2026-01-24T09:30:00",
+    "endDate": "2026-01-24T11:00:00",
     "venue": "Hidden Oaks Nature Center",
     "address": "7701 Royce St",
     "city": "Annandale",
@@ -822,8 +822,8 @@
     "title": "Little Gardeners",
     "description": "Explore the ever-changing landscape of the garden. Each week,…",
     "type": "one-time",
-    "startDate": "2026-01-24T15:30:00",
-    "endDate": "2026-01-24T22:00:00",
+    "startDate": "2026-01-24T10:30:00",
+    "endDate": "2026-01-24T12:00:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -851,8 +851,8 @@
     "title": "Garden Talk - Everything About Orchids",
     "description": "Join Extension Master Gardeners to learn about the different types…",
     "type": "one-time",
-    "startDate": "2026-01-24T15:30:00",
-    "endDate": "2026-01-24T22:00:00",
+    "startDate": "2026-01-24T10:30:00",
+    "endDate": "2026-01-24T12:00:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -881,8 +881,8 @@
     "title": "Going Green Workshop - Sustainable Swaps",
     "description": "Single-use plastics and papers are pervasive in every aspect of our…",
     "type": "one-time",
-    "startDate": "2026-01-24T18:00:00",
-    "endDate": "2026-01-25T00:30:00",
+    "startDate": "2026-01-24T13:00:00",
+    "endDate": "2026-01-24T14:30:00",
     "venue": "Riverbend Park",
     "address": "8700 Potomac Hills St",
     "city": "Great Falls",
@@ -910,8 +910,8 @@
     "title": "Historic Radios on the Farm",
     "description": "Few things improved the daily life of the farm family more than the…",
     "type": "one-time",
-    "startDate": "2026-01-24T21:00:00",
-    "endDate": "2026-01-25T03:30:00",
+    "startDate": "2026-01-24T16:00:00",
+    "endDate": "2026-01-24T17:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -939,8 +939,8 @@
     "title": "Nature's Architects - Biomimicry Building",
     "description": "Examine the sophisticated structural engineering found in animal…",
     "type": "one-time",
-    "startDate": "2026-01-24T21:30:00",
-    "endDate": "2026-01-25T04:00:00",
+    "startDate": "2026-01-24T16:30:00",
+    "endDate": "2026-01-24T18:00:00",
     "venue": "Lake Accotink Park",
     "address": "7500 Accotink Park Rd",
     "city": "Springfield",
@@ -969,8 +969,8 @@
     "title": "Mysterious Space",
     "description": "Chase away Winter boredom by going on an interactive space adventure…",
     "type": "one-time",
-    "startDate": "2026-01-24T23:30:00",
-    "endDate": "2026-01-25T06:00:00",
+    "startDate": "2026-01-24T18:30:00",
+    "endDate": "2026-01-24T20:00:00",
     "venue": "Hidden Oaks Nature Center",
     "address": "7701 Royce St",
     "city": "Annandale",
@@ -1000,8 +1000,8 @@
     "title": "Birds and Beans",
     "description": "Enjoy a hot cup of coffee while you hike with a naturalist and look…",
     "type": "one-time",
-    "startDate": "2026-01-25T13:00:00",
-    "endDate": "2026-01-25T19:30:00",
+    "startDate": "2026-01-25T08:00:00",
+    "endDate": "2026-01-25T09:30:00",
     "venue": "Burke Lake Park",
     "address": "7315 Ox Rd",
     "city": "Fairfax Station",
@@ -1015,6 +1015,64 @@
     ],
     "ageRange": {
       "min": 4,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "dino-puppet-show-and-activitie-jan25",
+    "title": "Dino Puppet Show and Activities",
+    "description": "Dinosaurs once roamed all the Earth in places far and near. Enjoy a…",
+    "type": "one-time",
+    "startDate": "2026-01-25T13:30:00",
+    "endDate": "2026-01-25T15:00:00",
+    "venue": "Hidden Oaks Nature Center",
+    "address": "7701 Royce St",
+    "city": "Annandale",
+    "coordinates": {
+      "lat": 38.8302,
+      "lng": -77.2006
+    },
+    "activityTypes": [
+      "arts"
+    ],
+    "ageRange": {
+      "min": 4,
+      "max": 8
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "winter-lecture-online-conserva-jan25",
+    "title": "Winter Lecture Online-Conservation Detection Dogs",
+    "description": "Dogs are well known for their powerful noses, and those sniffing…",
+    "type": "one-time",
+    "startDate": "2026-01-25T13:30:00",
+    "endDate": "2026-01-25T15:00:00",
+    "venue": "Green Spring Gardens",
+    "address": "4603 Green Spring Rd",
+    "city": "Alexandria",
+    "coordinates": {
+      "lat": 38.7874,
+      "lng": -77.1153
+    },
+    "activityTypes": [
+      "educational"
+    ],
+    "ageRange": {
+      "min": 16,
       "max": 99
     },
     "cost": {
@@ -1062,70 +1120,12 @@
     "lastUpdated": "2026-01-18"
   },
   {
-    "id": "dino-puppet-show-and-activitie-jan25",
-    "title": "Dino Puppet Show and Activities",
-    "description": "Dinosaurs once roamed all the Earth in places far and near. Enjoy a…",
-    "type": "one-time",
-    "startDate": "2026-01-25T18:30:00",
-    "endDate": "2026-01-26T01:00:00",
-    "venue": "Hidden Oaks Nature Center",
-    "address": "7701 Royce St",
-    "city": "Annandale",
-    "coordinates": {
-      "lat": 38.8302,
-      "lng": -77.2006
-    },
-    "activityTypes": [
-      "arts"
-    ],
-    "ageRange": {
-      "min": 4,
-      "max": 8
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
-    "id": "winter-lecture-online-conserva-jan25",
-    "title": "Winter Lecture Online-Conservation Detection Dogs",
-    "description": "Dogs are well known for their powerful noses, and those sniffing…",
-    "type": "one-time",
-    "startDate": "2026-01-25T18:30:00",
-    "endDate": "2026-01-26T01:00:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 16,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
     "id": "roundup-playtime-jan28",
     "title": "Roundup Playtime",
     "description": "Enjoy 2 hours of unstructured themed play time to meet new friends…",
     "type": "one-time",
-    "startDate": "2026-01-28T15:00:00",
-    "endDate": "2026-01-28T21:30:00",
+    "startDate": "2026-01-28T10:00:00",
+    "endDate": "2026-01-28T11:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -1153,8 +1153,8 @@
     "title": "Outdoor Science Lab at Huntley",
     "description": "Explore the exciting world of science with fun hands-on experiments,…",
     "type": "one-time",
-    "startDate": "2026-01-29T18:00:00",
-    "endDate": "2026-01-30T00:30:00",
+    "startDate": "2026-01-29T13:00:00",
+    "endDate": "2026-01-29T14:30:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -1182,8 +1182,8 @@
     "title": "Snake and Turtle Feeding",
     "description": "Enjoy a brief presentation and demonstration by our animal caretaker…",
     "type": "one-time",
-    "startDate": "2026-01-29T19:00:00",
-    "endDate": "2026-01-30T01:30:00",
+    "startDate": "2026-01-29T14:00:00",
+    "endDate": "2026-01-29T15:30:00",
     "venue": "Hidden Oaks Nature Center",
     "address": "7701 Royce St",
     "city": "Annandale",
@@ -1211,8 +1211,8 @@
     "title": "Animal Tea Party",
     "description": "Join us for a cozy tea party on the farm. Bring your favorite…",
     "type": "one-time",
-    "startDate": "2026-01-30T19:00:00",
-    "endDate": "2026-01-31T01:30:00",
+    "startDate": "2026-01-30T14:00:00",
+    "endDate": "2026-01-30T15:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -1241,8 +1241,8 @@
     "title": "Introduction to Astronomy",
     "description": "This course provides a general introduction to some fundamentals of…",
     "type": "one-time",
-    "startDate": "2026-01-31T00:00:00",
-    "endDate": "2026-01-31T06:30:00",
+    "startDate": "2026-01-30T19:00:00",
+    "endDate": "2026-01-30T20:30:00",
     "venue": "Turner Farm",
     "address": "925 Springvale Rd",
     "city": "Great Falls",
@@ -1270,8 +1270,8 @@
     "title": "Super Salamander Healing Lab",
     "description": "Discover the amazing superpower of salamanders-they can regrow…",
     "type": "one-time",
-    "startDate": "2026-01-31T15:00:00",
-    "endDate": "2026-01-31T21:30:00",
+    "startDate": "2026-01-31T10:00:00",
+    "endDate": "2026-01-31T11:30:00",
     "venue": "Lake Accotink Park",
     "address": "7500 Accotink Park Rd",
     "city": "Springfield",
@@ -1300,8 +1300,8 @@
     "title": "Garden Exploration - A Stargazer's Garden",
     "description": "Discover the cosmic magic where sky meets soil. Explore…",
     "type": "one-time",
-    "startDate": "2026-01-31T15:00:00",
-    "endDate": "2026-01-31T21:30:00",
+    "startDate": "2026-01-31T10:00:00",
+    "endDate": "2026-01-31T11:30:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -1330,8 +1330,8 @@
     "title": "Furry Foxes",
     "description": "These wild members of the dog family are a common sight in our…",
     "type": "one-time",
-    "startDate": "2026-01-31T15:00:00",
-    "endDate": "2026-01-31T21:30:00",
+    "startDate": "2026-01-31T10:00:00",
+    "endDate": "2026-01-31T11:30:00",
     "venue": "Burke Lake Park",
     "address": "7315 Ox Rd",
     "city": "Fairfax Station",
@@ -1359,8 +1359,8 @@
     "title": "Animal Tea Party",
     "description": "Join us for a cozy tea party on the farm. Bring your favorite…",
     "type": "one-time",
-    "startDate": "2026-01-31T16:00:00",
-    "endDate": "2026-01-31T22:30:00",
+    "startDate": "2026-01-31T11:00:00",
+    "endDate": "2026-01-31T12:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -1375,6 +1375,122 @@
     "ageRange": {
       "min": 4,
       "max": 7
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "forest-flora-frenzy-plant-powe-jan31",
+    "title": "Forest Flora Frenzy - Plant Power Revealed",
+    "description": "Investigate the innovative engineering solutions plants have evolved…",
+    "type": "one-time",
+    "startDate": "2026-01-31T13:00:00",
+    "endDate": "2026-01-31T14:30:00",
+    "venue": "Lake Accotink Park",
+    "address": "7500 Accotink Park Rd",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 38.7926,
+      "lng": -77.2203
+    },
+    "activityTypes": [
+      "nature"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "family-fun-growing-green-with--jan31",
+    "title": "Family Fun - Growing Green with Recycled Things",
+    "description": "Inspired by Disney-Pixar’s WALL·E, this hands-on workshop invites you…",
+    "type": "one-time",
+    "startDate": "2026-01-31T13:00:00",
+    "endDate": "2026-01-31T14:30:00",
+    "venue": "Green Spring Gardens",
+    "address": "4603 Green Spring Rd",
+    "city": "Alexandria",
+    "coordinates": {
+      "lat": 38.7874,
+      "lng": -77.1153
+    },
+    "activityTypes": [
+      "educational"
+    ],
+    "ageRange": {
+      "min": 8,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "winter-stream-life-jan31",
+    "title": "Winter Stream Life",
+    "description": "Explore Walney Creek with a naturalist to meet some of the small…",
+    "type": "one-time",
+    "startDate": "2026-01-31T13:00:00",
+    "endDate": "2026-01-31T14:30:00",
+    "venue": "Eclawrence",
+    "address": "Fairfax County",
+    "city": "Fairfax",
+    "coordinates": {
+      "lat": 38.8462,
+      "lng": -77.3064
+    },
+    "activityTypes": [
+      "nature"
+    ],
+    "ageRange": {
+      "min": 8,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "movie-at-the-gardens-wall-e-jan31",
+    "title": "Movie at the Gardens - 'WALL·E'",
+    "description": "Take a peaceful stroll through the tropical plants in the glasshouse…",
+    "type": "one-time",
+    "startDate": "2026-01-31T14:30:00",
+    "endDate": "2026-01-31T16:00:00",
+    "venue": "Green Spring Gardens",
+    "address": "4603 Green Spring Rd",
+    "city": "Alexandria",
+    "coordinates": {
+      "lat": 38.7874,
+      "lng": -77.1153
+    },
+    "activityTypes": [
+      "nature"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
     },
     "cost": {
       "amount": 8,
@@ -1420,122 +1536,6 @@
     "lastUpdated": "2026-01-18"
   },
   {
-    "id": "forest-flora-frenzy-plant-powe-jan31",
-    "title": "Forest Flora Frenzy - Plant Power Revealed",
-    "description": "Investigate the innovative engineering solutions plants have evolved…",
-    "type": "one-time",
-    "startDate": "2026-01-31T18:00:00",
-    "endDate": "2026-02-01T00:30:00",
-    "venue": "Lake Accotink Park",
-    "address": "7500 Accotink Park Rd",
-    "city": "Springfield",
-    "coordinates": {
-      "lat": 38.7926,
-      "lng": -77.2203
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
-    "id": "family-fun-growing-green-with--jan31",
-    "title": "Family Fun - Growing Green with Recycled Things",
-    "description": "Inspired by Disney-Pixar’s WALL·E, this hands-on workshop invites you…",
-    "type": "one-time",
-    "startDate": "2026-01-31T18:00:00",
-    "endDate": "2026-02-01T00:30:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 8,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
-    "id": "winter-stream-life-jan31",
-    "title": "Winter Stream Life",
-    "description": "Explore Walney Creek with a naturalist to meet some of the small…",
-    "type": "one-time",
-    "startDate": "2026-01-31T18:00:00",
-    "endDate": "2026-02-01T00:30:00",
-    "venue": "Eclawrence",
-    "address": "Fairfax County",
-    "city": "Fairfax",
-    "coordinates": {
-      "lat": 38.8462,
-      "lng": -77.3064
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 8,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
-    "id": "movie-at-the-gardens-wall-e-jan31",
-    "title": "Movie at the Gardens - 'WALL·E'",
-    "description": "Take a peaceful stroll through the tropical plants in the glasshouse…",
-    "type": "one-time",
-    "startDate": "2026-01-31T19:30:00",
-    "endDate": "2026-02-01T02:00:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 0,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
     "id": "stem-saturday",
     "title": "STEM Saturday: Robotics",
     "description": "Hands-on robotics workshop where kids build and program simple robots using LEGO Mindstorms. Work in teams to complete fun challenges!",
@@ -1576,8 +1576,8 @@
     "title": "Winter Lecture - Moon Gardens",
     "description": "Designed as a tranquil, rejuvenating retreat for the end of the day…",
     "type": "one-time",
-    "startDate": "2026-02-01T18:30:00",
-    "endDate": "2026-02-02T01:00:00",
+    "startDate": "2026-02-01T13:30:00",
+    "endDate": "2026-02-01T15:00:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -1606,8 +1606,8 @@
     "title": "Remembering Metilda - Growing Up Enslaved",
     "description": "Come learn about Metilda, an enslaved 14-year old girl who came to…",
     "type": "one-time",
-    "startDate": "2026-02-01T19:00:00",
-    "endDate": "2026-02-02T01:30:00",
+    "startDate": "2026-02-01T14:00:00",
+    "endDate": "2026-02-01T15:30:00",
     "venue": "Colvin Run Mill",
     "address": "10017 Colvin Run Rd",
     "city": "Great Falls",
@@ -1636,8 +1636,8 @@
     "title": "Winter Lakeside Lantern Walks",
     "description": "Create a magical evening experience with a guided lantern walk around…",
     "type": "one-time",
-    "startDate": "2026-02-01T21:30:00",
-    "endDate": "2026-02-02T04:00:00",
+    "startDate": "2026-02-01T16:30:00",
+    "endDate": "2026-02-01T18:00:00",
     "venue": "Lake Accotink Park",
     "address": "7500 Accotink Park Rd",
     "city": "Springfield",
@@ -1665,8 +1665,8 @@
     "title": "Full Moon Nature Hike and Campfire",
     "description": "Enjoy nature's tranquil beauty and the night sky under a full moon.…",
     "type": "one-time",
-    "startDate": "2026-02-01T23:00:00",
-    "endDate": "2026-02-02T05:30:00",
+    "startDate": "2026-02-01T18:00:00",
+    "endDate": "2026-02-01T19:30:00",
     "venue": "Riverbend Park",
     "address": "8700 Potomac Hills St",
     "city": "Great Falls",
@@ -1695,8 +1695,8 @@
     "title": "Little Hands on the Farm",
     "description": "Join us to learn about a different element of farm life each week.…",
     "type": "one-time",
-    "startDate": "2026-02-02T14:45:00",
-    "endDate": "2026-02-02T21:15:00",
+    "startDate": "2026-02-02T09:45:00",
+    "endDate": "2026-02-02T11:15:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -1724,8 +1724,8 @@
     "title": "World Wetlands Day Sketch Hike",
     "description": "Celebrate World Wetlands Day by joining park naturalist and artist…",
     "type": "one-time",
-    "startDate": "2026-02-02T15:00:00",
-    "endDate": "2026-02-02T21:30:00",
+    "startDate": "2026-02-02T10:00:00",
+    "endDate": "2026-02-02T11:30:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -1755,8 +1755,8 @@
     "title": "Wetland at Dusk Walk",
     "description": "Join park naturalists for a relaxing stroll through the park's forest…",
     "type": "one-time",
-    "startDate": "2026-02-02T22:00:00",
-    "endDate": "2026-02-03T04:30:00",
+    "startDate": "2026-02-02T17:00:00",
+    "endDate": "2026-02-02T18:30:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -1785,8 +1785,8 @@
     "title": "Corn Grinding and Clay Pottery",
     "description": "Learn how the Powhatan Native Americans used the plants and animals…",
     "type": "one-time",
-    "startDate": "2026-02-04T15:00:00",
-    "endDate": "2026-02-04T21:30:00",
+    "startDate": "2026-02-04T10:00:00",
+    "endDate": "2026-02-04T11:30:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -1851,8 +1851,8 @@
     "title": "Hot Cocoa Wetland Night Hike",
     "description": "Sip hot cocoa and join a naturalist for a special winter wonder…",
     "type": "one-time",
-    "startDate": "2026-02-06T21:30:00",
-    "endDate": "2026-02-07T04:00:00",
+    "startDate": "2026-02-06T16:30:00",
+    "endDate": "2026-02-06T18:00:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -1881,8 +1881,8 @@
     "title": "Make Your Own Pinecone Birdfeeders",
     "description": "Help feed your feathered friends this winter by making and taking…",
     "type": "one-time",
-    "startDate": "2026-02-07T15:00:00",
-    "endDate": "2026-02-07T21:30:00",
+    "startDate": "2026-02-07T10:00:00",
+    "endDate": "2026-02-07T11:30:00",
     "venue": "Riverbend Park",
     "address": "8700 Potomac Hills St",
     "city": "Great Falls",
@@ -1910,8 +1910,8 @@
     "title": "Biology of The Despised",
     "description": "Challenge misconceptions about frequently misunderstood animals like…",
     "type": "one-time",
-    "startDate": "2026-02-07T15:00:00",
-    "endDate": "2026-02-07T21:30:00",
+    "startDate": "2026-02-07T10:00:00",
+    "endDate": "2026-02-07T11:30:00",
     "venue": "Lake Accotink Park",
     "address": "7500 Accotink Park Rd",
     "city": "Springfield",
@@ -1940,8 +1940,8 @@
     "title": "Lichens Sketch Hike",
     "description": "What happens when a fungus and an algae take a lichen to each other…",
     "type": "one-time",
-    "startDate": "2026-02-07T15:00:00",
-    "endDate": "2026-02-07T21:30:00",
+    "startDate": "2026-02-07T10:00:00",
+    "endDate": "2026-02-07T11:30:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -1970,8 +1970,8 @@
     "title": "Custom Valentine Making",
     "description": "Nothing says I LOVE MOO like a handmade Valentine’s Day card. Bring…",
     "type": "one-time",
-    "startDate": "2026-02-07T15:00:00",
-    "endDate": "2026-02-07T21:30:00",
+    "startDate": "2026-02-07T10:00:00",
+    "endDate": "2026-02-07T11:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -2000,8 +2000,8 @@
     "title": "To Build a Fire",
     "description": "Learn the science and art of building a fire and then test your skill…",
     "type": "one-time",
-    "startDate": "2026-02-07T16:00:00",
-    "endDate": "2026-02-07T22:30:00",
+    "startDate": "2026-02-07T11:00:00",
+    "endDate": "2026-02-07T12:30:00",
     "venue": "Riverbend Park",
     "address": "8700 Potomac Hills St",
     "city": "Great Falls",
@@ -2031,8 +2031,8 @@
     "title": "Spellbinders - Tales of Tails",
     "description": "Enjoy oral storytelling from countries around the world. Attendees…",
     "type": "one-time",
-    "startDate": "2026-02-07T16:00:00",
-    "endDate": "2026-02-07T22:30:00",
+    "startDate": "2026-02-07T11:00:00",
+    "endDate": "2026-02-07T12:30:00",
     "venue": "Hidden Oaks Nature Center",
     "address": "7701 Royce St",
     "city": "Annandale",
@@ -2060,8 +2060,8 @@
     "title": "Black History Month at the Meeting House",
     "description": "In honor of Black History Month, the Frying Pan Baptist Meetinghouse…",
     "type": "one-time",
-    "startDate": "2026-02-07T17:00:00",
-    "endDate": "2026-02-07T23:30:00",
+    "startDate": "2026-02-07T12:00:00",
+    "endDate": "2026-02-07T13:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -2089,8 +2089,8 @@
     "title": "Washington Gardener Seed Exchange",
     "description": "Washington Gardener Magazine is co-hosting the annual seed exchange at…",
     "type": "one-time",
-    "startDate": "2026-02-07T17:30:00",
-    "endDate": "2026-02-08T00:00:00",
+    "startDate": "2026-02-07T12:30:00",
+    "endDate": "2026-02-07T14:00:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -2118,8 +2118,8 @@
     "title": "Going Green Workshop - Clean Conscience",
     "description": "Much of our food, personal care, and cleaning products are filled…",
     "type": "one-time",
-    "startDate": "2026-02-07T18:00:00",
-    "endDate": "2026-02-08T00:30:00",
+    "startDate": "2026-02-07T13:00:00",
+    "endDate": "2026-02-07T14:30:00",
     "venue": "Riverbend Park",
     "address": "8700 Potomac Hills St",
     "city": "Great Falls",
@@ -2148,8 +2148,8 @@
     "title": "Sensory Superpowers - Super Skin Science",
     "description": "Investigate the amazing properties of animal skin and sensory systems…",
     "type": "one-time",
-    "startDate": "2026-02-07T18:00:00",
-    "endDate": "2026-02-08T00:30:00",
+    "startDate": "2026-02-07T13:00:00",
+    "endDate": "2026-02-07T14:30:00",
     "venue": "Lake Accotink Park",
     "address": "7500 Accotink Park Rd",
     "city": "Springfield",
@@ -2178,8 +2178,8 @@
     "title": "Garden Artists - Naturally Yours",
     "description": "Celebrate Valentine's Day by creating a natured inspired craft. We…",
     "type": "one-time",
-    "startDate": "2026-02-07T18:00:00",
-    "endDate": "2026-02-08T00:30:00",
+    "startDate": "2026-02-07T13:00:00",
+    "endDate": "2026-02-07T14:30:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -2209,8 +2209,8 @@
     "title": "Nature DIY Valentines",
     "description": "Nothing says \"I love you\" more than a homemade card. Use natural…",
     "type": "one-time",
-    "startDate": "2026-02-07T19:00:00",
-    "endDate": "2026-02-08T01:30:00",
+    "startDate": "2026-02-07T14:00:00",
+    "endDate": "2026-02-07T15:30:00",
     "venue": "Eclawrence",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2240,8 +2240,8 @@
     "title": "Campfire Saturdays - Stargazing",
     "description": "Enjoy a stroll along the lake shores and learn about the…",
     "type": "one-time",
-    "startDate": "2026-02-07T22:30:00",
-    "endDate": "2026-02-08T05:00:00",
+    "startDate": "2026-02-07T17:30:00",
+    "endDate": "2026-02-07T19:00:00",
     "venue": "Lake Fairfax Park",
     "address": "1400 Lake Fairfax Dr",
     "city": "Reston",
@@ -2271,8 +2271,8 @@
     "title": "Animal Pajama Party",
     "description": "Put on your pajamas and come to the nature center to hear bedtime…",
     "type": "one-time",
-    "startDate": "2026-02-07T23:30:00",
-    "endDate": "2026-02-08T06:00:00",
+    "startDate": "2026-02-07T18:30:00",
+    "endDate": "2026-02-07T20:00:00",
     "venue": "Hidden Oaks Nature Center",
     "address": "7701 Royce St",
     "city": "Annandale",
@@ -2301,8 +2301,8 @@
     "title": "Winter Waterfowl Hike",
     "description": "Hike with a naturalist to search winter waterfowl along the Upper…",
     "type": "one-time",
-    "startDate": "2026-02-08T13:00:00",
-    "endDate": "2026-02-08T19:30:00",
+    "startDate": "2026-02-08T08:00:00",
+    "endDate": "2026-02-08T09:30:00",
     "venue": "Riverbend Park",
     "address": "8700 Potomac Hills St",
     "city": "Great Falls",
@@ -2317,6 +2317,94 @@
     "ageRange": {
       "min": 8,
       "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "penguins-and-polar-bears-feb08",
+    "title": "Penguins and Polar Bears",
+    "description": "Learn about penguins, polar bears and other animals who enjoy the…",
+    "type": "one-time",
+    "startDate": "2026-02-08T10:30:00",
+    "endDate": "2026-02-08T12:00:00",
+    "venue": "Riverbend Park",
+    "address": "8700 Potomac Hills St",
+    "city": "Great Falls",
+    "coordinates": {
+      "lat": 39.0178,
+      "lng": -77.2447
+    },
+    "activityTypes": [
+      "nature",
+      "educational"
+    ],
+    "ageRange": {
+      "min": 3,
+      "max": 9
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "naturally-crafted-feb08",
+    "title": "Naturally Crafted",
+    "description": "Using found natural objects and recycled materials we will craft…",
+    "type": "one-time",
+    "startDate": "2026-02-08T13:00:00",
+    "endDate": "2026-02-08T14:30:00",
+    "venue": "Riverbend Park",
+    "address": "8700 Potomac Hills St",
+    "city": "Great Falls",
+    "coordinates": {
+      "lat": 39.0178,
+      "lng": -77.2447
+    },
+    "activityTypes": [
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-19"
+  },
+  {
+    "id": "make-your-own-pinecone-birdfee-feb08",
+    "title": "Make Your Own Pinecone Birdfeeders",
+    "description": "Help feed your feathered friends this winter by making and taking…",
+    "type": "one-time",
+    "startDate": "2026-02-08T13:00:00",
+    "endDate": "2026-02-08T14:30:00",
+    "venue": "Burke Lake Park",
+    "address": "7315 Ox Rd",
+    "city": "Fairfax Station",
+    "coordinates": {
+      "lat": 38.7598,
+      "lng": -77.2969
+    },
+    "activityTypes": [
+      "nature"
+    ],
+    "ageRange": {
+      "min": 6,
+      "max": 14
     },
     "cost": {
       "amount": 8,
@@ -2362,100 +2450,12 @@
     "lastUpdated": "2026-01-18"
   },
   {
-    "id": "penguins-and-polar-bears-feb08",
-    "title": "Penguins and Polar Bears",
-    "description": "Learn about penguins, polar bears and other animals who enjoy the…",
-    "type": "one-time",
-    "startDate": "2026-02-08T15:30:00",
-    "endDate": "2026-02-08T22:00:00",
-    "venue": "Riverbend Park",
-    "address": "8700 Potomac Hills St",
-    "city": "Great Falls",
-    "coordinates": {
-      "lat": 39.0178,
-      "lng": -77.2447
-    },
-    "activityTypes": [
-      "nature",
-      "educational"
-    ],
-    "ageRange": {
-      "min": 3,
-      "max": 9
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
-    "id": "naturally-crafted-feb08",
-    "title": "Naturally Crafted",
-    "description": "Using found natural objects and recycled materials we will craft…",
-    "type": "one-time",
-    "startDate": "2026-02-08T18:00:00",
-    "endDate": "2026-02-09T00:30:00",
-    "venue": "Riverbend Park",
-    "address": "8700 Potomac Hills St",
-    "city": "Great Falls",
-    "coordinates": {
-      "lat": 39.0178,
-      "lng": -77.2447
-    },
-    "activityTypes": [
-      "arts"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
-    "id": "make-your-own-pinecone-birdfee-feb08",
-    "title": "Make Your Own Pinecone Birdfeeders",
-    "description": "Help feed your feathered friends this winter by making and taking…",
-    "type": "one-time",
-    "startDate": "2026-02-08T18:00:00",
-    "endDate": "2026-02-09T00:30:00",
-    "venue": "Burke Lake Park",
-    "address": "7315 Ox Rd",
-    "city": "Fairfax Station",
-    "coordinates": {
-      "lat": 38.7598,
-      "lng": -77.2969
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 6,
-      "max": 14
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-events-calendar",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-19"
-  },
-  {
     "id": "owl-walk-and-talk-feb08",
     "title": "Owl Walk and Talk",
     "description": "Enjoy a late afternoon walk to learn why winter is the best time to…",
     "type": "one-time",
-    "startDate": "2026-02-08T21:30:00",
-    "endDate": "2026-02-09T04:00:00",
+    "startDate": "2026-02-08T16:30:00",
+    "endDate": "2026-02-08T18:00:00",
     "venue": "Lake Fairfax Park",
     "address": "1400 Lake Fairfax Dr",
     "city": "Reston",
@@ -2485,8 +2485,8 @@
     "title": "Flying Squirrel Campfire",
     "description": "Enjoy an evening around the campfire, toasting marshmallows over the…",
     "type": "one-time",
-    "startDate": "2026-02-09T00:00:00",
-    "endDate": "2026-02-09T06:30:00",
+    "startDate": "2026-02-08T19:00:00",
+    "endDate": "2026-02-08T20:30:00",
     "venue": "Hidden Oaks Nature Center",
     "address": "7701 Royce St",
     "city": "Annandale",
@@ -2515,8 +2515,8 @@
     "title": "Homeschool Science - Introduction to Ornithology",
     "description": "Explore how bird adaptations allow birds to live in their chosen…",
     "type": "one-time",
-    "startDate": "2026-02-09T15:00:00",
-    "endDate": "2026-02-09T21:30:00",
+    "startDate": "2026-02-09T10:00:00",
+    "endDate": "2026-02-09T11:30:00",
     "venue": "Huntley Meadows Park",
     "address": "3701 Lockheed Blvd",
     "city": "Alexandria",
@@ -2546,8 +2546,8 @@
     "title": "Nature Tots",
     "description": "Bring your toddler to explore nature through sight, sound, smell and…",
     "type": "one-time",
-    "startDate": "2026-02-09T15:00:00",
-    "endDate": "2026-02-09T21:30:00",
+    "startDate": "2026-02-09T10:00:00",
+    "endDate": "2026-02-09T11:30:00",
     "venue": "Eclawrence",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2575,8 +2575,8 @@
     "title": "Garden Sprouts Winter - Nature Playgroup",
     "description": "Your preschooler enjoys nature-themed toys and puzzles while you…",
     "type": "one-time",
-    "startDate": "2026-02-09T15:30:00",
-    "endDate": "2026-02-09T22:00:00",
+    "startDate": "2026-02-09T10:30:00",
+    "endDate": "2026-02-09T12:00:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -2605,8 +2605,8 @@
     "title": "Roundup Playtime",
     "description": "Enjoy 2 hours of unstructured themed play time to meet new friends…",
     "type": "one-time",
-    "startDate": "2026-02-11T15:00:00",
-    "endDate": "2026-02-11T21:30:00",
+    "startDate": "2026-02-11T10:00:00",
+    "endDate": "2026-02-11T11:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -2634,8 +2634,8 @@
     "title": "History Hoppers",
     "description": "Hop through history with your toddler as they explore the past…",
     "type": "one-time",
-    "startDate": "2026-02-11T16:00:00",
-    "endDate": "2026-02-11T22:30:00",
+    "startDate": "2026-02-11T11:00:00",
+    "endDate": "2026-02-11T12:30:00",
     "venue": "Eclawrence",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2663,8 +2663,8 @@
     "title": "Identifying and Removing Invasive Species",
     "description": "Invasive plants threaten native species that support our local food webs and…",
     "type": "one-time",
-    "startDate": "2026-02-11T17:30:00",
-    "endDate": "2026-02-12T00:00:00",
+    "startDate": "2026-02-11T12:30:00",
+    "endDate": "2026-02-11T14:00:00",
     "venue": "Nature History",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2692,8 +2692,8 @@
     "title": "Animal Feeding",
     "description": "It's dinner time at the nature center and worms and insects are on…",
     "type": "one-time",
-    "startDate": "2026-02-11T21:30:00",
-    "endDate": "2026-02-12T04:00:00",
+    "startDate": "2026-02-11T16:30:00",
+    "endDate": "2026-02-11T18:00:00",
     "venue": "Hidden Pond Nature Center",
     "address": "8511 Greeley Blvd",
     "city": "Springfield",
@@ -2721,8 +2721,8 @@
     "title": "Art of the Heart",
     "description": "Love has been a subject for artists throughout history. In honor of St…",
     "type": "one-time",
-    "startDate": "2026-02-14T18:00:00",
-    "endDate": "2026-02-15T00:30:00",
+    "startDate": "2026-02-14T13:00:00",
+    "endDate": "2026-02-14T14:30:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -2751,8 +2751,8 @@
     "title": "Winter Lecture - Colonial Seed Exchange",
     "description": "Discover how 18th-century neighbors built community through the…",
     "type": "one-time",
-    "startDate": "2026-02-15T18:30:00",
-    "endDate": "2026-02-16T01:00:00",
+    "startDate": "2026-02-15T13:30:00",
+    "endDate": "2026-02-15T15:00:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -2781,8 +2781,8 @@
     "title": "Sensory Friendly Time at Cub Run Rec Center Leisure Pool",
     "description": "Sensory friendly times at the Cub Run Rec Center Leisure Pool …",
     "type": "one-time",
-    "startDate": "2026-02-17T16:00:00",
-    "endDate": "2026-02-17T22:30:00",
+    "startDate": "2026-02-17T11:00:00",
+    "endDate": "2026-02-17T12:30:00",
     "venue": "Reccenter",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2847,8 +2847,8 @@
     "title": "Black History Month at the Meeting House",
     "description": "In honor of Black History Month, the Frying Pan Baptist Meetinghouse…",
     "type": "one-time",
-    "startDate": "2026-02-21T17:00:00",
-    "endDate": "2026-02-21T23:30:00",
+    "startDate": "2026-02-21T12:00:00",
+    "endDate": "2026-02-21T13:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -2876,8 +2876,8 @@
     "title": "Biology of The Despised",
     "description": "Challenge misconceptions about frequently misunderstood animals like…",
     "type": "one-time",
-    "startDate": "2026-02-21T18:00:00",
-    "endDate": "2026-02-22T00:30:00",
+    "startDate": "2026-02-21T13:00:00",
+    "endDate": "2026-02-21T14:30:00",
     "venue": "Lake Accotink Park",
     "address": "7500 Accotink Park Rd",
     "city": "Springfield",
@@ -2906,8 +2906,8 @@
     "title": "Your Yard or Balcony Can Be a Pollinator Garden",
     "description": "You don’t need a large yard to make a big impact for wildlife. Join Laurie Dodd…",
     "type": "one-time",
-    "startDate": "2026-02-21T20:00:00",
-    "endDate": "2026-02-22T02:30:00",
+    "startDate": "2026-02-21T15:00:00",
+    "endDate": "2026-02-21T16:30:00",
     "venue": "Nature History",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2935,8 +2935,8 @@
     "title": "Lunar New Year Celebration",
     "description": "Get ready…",
     "type": "one-time",
-    "startDate": "2026-02-21T23:00:00",
-    "endDate": "2026-02-22T05:30:00",
+    "startDate": "2026-02-21T18:00:00",
+    "endDate": "2026-02-21T19:30:00",
     "venue": "Twin Lakes Golf Course",
     "address": "6201 Union Mill Rd",
     "city": "Clifton",
@@ -2964,8 +2964,8 @@
     "title": "Family Skate and Dance Night: Disco Blast Back to the 70s",
     "description": "Celebrate love and disco as we transport you back to funky music from the 70s…",
     "type": "one-time",
-    "startDate": "2026-02-21T23:00:00",
-    "endDate": "2026-02-22T05:30:00",
+    "startDate": "2026-02-21T18:00:00",
+    "endDate": "2026-02-21T19:30:00",
     "venue": "Reccenter",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -2993,8 +2993,8 @@
     "title": "Tea, Glorious Tea (Gluten-Free)",
     "description": "There’s nothing quite like it for all kinds of things. Tea can be used…",
     "type": "one-time",
-    "startDate": "2026-02-22T18:00:00",
-    "endDate": "2026-02-23T00:30:00",
+    "startDate": "2026-02-22T13:00:00",
+    "endDate": "2026-02-22T14:30:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -3022,8 +3022,8 @@
     "title": "Your Yard or Balcony Can Be a Pollinator Garden",
     "description": "Discover how even small spaces can support pollinators and local wildlife. In…",
     "type": "one-time",
-    "startDate": "2026-02-24T17:00:00",
-    "endDate": "2026-02-24T23:30:00",
+    "startDate": "2026-02-24T12:00:00",
+    "endDate": "2026-02-24T13:30:00",
     "venue": "Nature History",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -3052,8 +3052,8 @@
     "title": "Seraphim Quartet",
     "description": "Women’s vocal ensemble The Seraphim Quartet performs as ladies of the…",
     "type": "one-time",
-    "startDate": "2026-03-08T17:00:00",
-    "endDate": "2026-03-08T22:30:00",
+    "startDate": "2026-03-08T13:00:00",
+    "endDate": "2026-03-08T14:30:00",
     "venue": "Green Spring Gardens",
     "address": "4603 Green Spring Rd",
     "city": "Alexandria",
@@ -3120,8 +3120,8 @@
     "title": "Sensory Friendly Time at Cub Run Rec Center Leisure Pool",
     "description": "Sensory friendly times at the Cub Run Rec Center Leisure Pool …",
     "type": "one-time",
-    "startDate": "2026-04-10T15:00:00",
-    "endDate": "2026-04-10T20:30:00",
+    "startDate": "2026-04-10T11:00:00",
+    "endDate": "2026-04-10T12:30:00",
     "venue": "Reccenter",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -3149,8 +3149,8 @@
     "title": "Revolutionary Ideas: Fairfax in the American Revolution",
     "description": "Join historians, scholars, educators, and community members for a full day of…",
     "type": "one-time",
-    "startDate": "2026-04-18T12:30:00",
-    "endDate": "2026-04-18T18:00:00",
+    "startDate": "2026-04-18T08:30:00",
+    "endDate": "2026-04-18T10:00:00",
     "venue": "Topics",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -3178,8 +3178,8 @@
     "title": "Healthy Strides 5K/10K",
     "description": "Collect your cosmic power in preparation for the 2026 Healthy Strides Heroes vs…",
     "type": "one-time",
-    "startDate": "2026-05-02T11:30:00",
-    "endDate": "2026-05-02T17:00:00",
+    "startDate": "2026-05-02T07:30:00",
+    "endDate": "2026-05-02T09:00:00",
     "venue": "Healthy Strides",
     "address": "Fairfax County",
     "city": "Fairfax",
@@ -3207,8 +3207,8 @@
     "title": "Asian American, Native Hawaiian and Pacific Islander (AANHPI) Month Celebration",
     "description": "Join the FCPA and community partners for a celebratory day of Asian culture and…",
     "type": "one-time",
-    "startDate": "2026-05-09T16:30:00",
-    "endDate": "2026-05-09T22:00:00",
+    "startDate": "2026-05-09T12:30:00",
+    "endDate": "2026-05-09T14:00:00",
     "venue": "Aapi Celebration",
     "address": "Fairfax County",
     "city": "Fairfax",

@@ -8,12 +8,10 @@ import { FilterState } from '@/lib/types';
 import EventList from '@/components/EventList';
 import FilterPanel from '@/components/FilterPanel';
 import MobileFilterDrawer from '@/components/MobileFilterDrawer';
-import QuickRescueButtons from '@/components/QuickRescueButtons';
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(getInitialFilterState());
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
-  const [activeRescue, setActiveRescue] = useState<string | null>(null);
 
   const allEvents = getAllEvents();
   const filteredEvents = filterEvents(allEvents, filters);
@@ -21,11 +19,6 @@ export default function HomePage() {
 
   const handleResetFilters = () => {
     setFilters(getInitialFilterState());
-    setActiveRescue(null);
-  };
-
-  const handleQuickRescueFilter = (newFilters: FilterState) => {
-    setFilters(newFilters);
   };
 
   return (
@@ -97,14 +90,14 @@ export default function HomePage() {
       {/* Main Content */}
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-8">
           <div>
             <h2 className="text-2xl font-bold text-[#3d3a35]">
               Discover Activities
             </h2>
             <p className="text-[#8a8578] mt-1">
               {filteredEvents.length} {filteredEvents.length === 1 ? 'activity' : 'activities'}{' '}
-              {activeFilterCount > 0 || activeRescue ? 'matching your filters' : 'to explore'}
+              {activeFilterCount > 0 ? 'matching your filters' : 'to explore'}
             </p>
           </div>
 
@@ -134,13 +127,6 @@ export default function HomePage() {
             )}
           </button>
         </div>
-
-        {/* Quick Rescue Buttons */}
-        <QuickRescueButtons
-          onApplyFilter={handleQuickRescueFilter}
-          activeRescue={activeRescue}
-          setActiveRescue={setActiveRescue}
-        />
 
         {/* Desktop: Sidebar + Grid Layout */}
         <div className="lg:grid lg:grid-cols-4 lg:gap-8">

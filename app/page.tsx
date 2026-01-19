@@ -2,14 +2,13 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { getAllEvents, getThisWeekendEvents } from '@/lib/data';
+import { getAllEvents } from '@/lib/data';
 import { filterEvents, getInitialFilterState, countActiveFilters } from '@/lib/filters';
 import { FilterState } from '@/lib/types';
 import EventList from '@/components/EventList';
 import FilterPanel from '@/components/FilterPanel';
 import MobileFilterDrawer from '@/components/MobileFilterDrawer';
 import QuickRescueButtons from '@/components/QuickRescueButtons';
-import ThisWeekend from '@/components/ThisWeekend';
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(getInitialFilterState());
@@ -19,7 +18,6 @@ export default function HomePage() {
   const allEvents = getAllEvents();
   const filteredEvents = filterEvents(allEvents, filters);
   const activeFilterCount = countActiveFilters(filters);
-  const weekendEvents = getThisWeekendEvents();
 
   const handleResetFilters = () => {
     setFilters(getInitialFilterState());
@@ -90,14 +88,11 @@ export default function HomePage() {
           <svg viewBox="0 0 1440 60" fill="none" className="w-full h-auto">
             <path
               d="M0 60V30C240 10 480 0 720 0s480 10 720 30v30H0z"
-              fill="#f7f4ee"
+              fill="#fdfcfa"
             />
           </svg>
         </div>
       </section>
-
-      {/* This Weekend Section */}
-      <ThisWeekend events={weekendEvents} />
 
       {/* Main Content */}
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">

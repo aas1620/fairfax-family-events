@@ -61,8 +61,8 @@ export default function EventCard({ event }: EventCardProps) {
         <div className="aspect-[4/3] bg-gradient-to-br from-[#f7f4ee] to-[#e8f3ec] relative overflow-hidden">
           <div className="absolute inset-0 flex items-center justify-center">
             <div
-              className="w-28 h-28 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
-              style={{ backgroundColor: `${color}15` }}
+              className="w-32 h-32 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              style={{ backgroundColor: `${color}40` }}
             >
               <span className="text-8xl drop-shadow-sm">
                 {emoji}

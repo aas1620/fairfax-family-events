@@ -52,17 +52,17 @@ function formatSchedule(event: Event): string {
   return 'Check website for hours';
 }
 
-function getActivityIcon(activityTypes: Event['activityTypes']): string {
-  if (activityTypes.includes('nature')) return '🌿';
-  if (activityTypes.includes('science')) return '🔬';
-  if (activityTypes.includes('physical-play')) return '⚡';
-  if (activityTypes.includes('adventure')) return '🎯';
-  if (activityTypes.includes('arts')) return '🎨';
-  if (activityTypes.includes('history')) return '📜';
-  if (activityTypes.includes('educational')) return '📚';
-  if (activityTypes.includes('seasonal')) return '🍂';
-  if (activityTypes.includes('music')) return '🎵';
-  return '✨';
+function getActivityIcon(activityTypes: Event['activityTypes']): { emoji: string; color: string } {
+  if (activityTypes.includes('nature')) return { emoji: '🌿', color: '#4a7c59' };
+  if (activityTypes.includes('science')) return { emoji: '🚀', color: '#5b7fa3' };
+  if (activityTypes.includes('physical-play')) return { emoji: '🤸', color: '#d97706' };
+  if (activityTypes.includes('adventure')) return { emoji: '🎯', color: '#b45309' };
+  if (activityTypes.includes('arts')) return { emoji: '🎨', color: '#9333ea' };
+  if (activityTypes.includes('history')) return { emoji: '🏛️', color: '#92400e' };
+  if (activityTypes.includes('educational')) return { emoji: '📚', color: '#1e3a5f' };
+  if (activityTypes.includes('seasonal')) return { emoji: '🍂', color: '#c2410c' };
+  if (activityTypes.includes('music')) return { emoji: '🎵', color: '#be185d' };
+  return { emoji: '✨', color: '#6b5344' };
 }
 
 export async function generateStaticParams() {
@@ -123,6 +123,7 @@ export default async function EventDetailPage({ params }: EventDetailPageProps) 
   }
 
   const isFree = event.cost.per === 'free' || event.cost.amount === 0;
+  const { emoji, color } = getActivityIcon(event.activityTypes);
 
   return (
     <div className="min-h-screen bg-[#fdfcfa]">
@@ -154,9 +155,14 @@ export default async function EventDetailPage({ params }: EventDetailPageProps) 
             {/* Hero Image Placeholder */}
             <div className="aspect-[16/10] rounded-2xl bg-gradient-to-br from-[#f7f4ee] to-[#e8f3ec] relative overflow-hidden mb-8">
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-9xl opacity-30">
-                  {getActivityIcon(event.activityTypes)}
-                </span>
+                <div
+                  className="w-48 h-48 rounded-full flex items-center justify-center"
+                  style={{ backgroundColor: `${color}40` }}
+                >
+                  <span className="text-9xl drop-shadow-sm">
+                    {emoji}
+                  </span>
+                </div>
               </div>
               {isFree && (
                 <span className="absolute top-4 right-4 bg-[#5a9470] text-white text-sm font-semibold px-4 py-1.5 rounded-full shadow-sm">

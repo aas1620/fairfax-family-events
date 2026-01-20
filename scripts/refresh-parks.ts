@@ -201,6 +201,28 @@ interface ScrapedEvent {
   ageRange: string;
   location: string;
   description: string;
+  eventUrl: string;
+}
+
+// Infer exhaustion rating from activity types
+function inferExhaustionRating(activityTypes: string[]): number {
+  const ratings: Record<string, number> = {
+    'educational': 1,
+    'history': 1,
+    'arts': 2,
+    'music': 2,
+    'science': 2,
+    'nature': 3,
+    'seasonal': 3,
+    'adventure': 4,
+    'physical-play': 4,
+  };
+
+  let maxRating = 1;
+  for (const type of activityTypes) {
+    maxRating = Math.max(maxRating, ratings[type] || 1);
+  }
+  return maxRating;
 }
 
 async function fetchCalendarPage(page: number): Promise<string> {
@@ -293,7 +315,8 @@ function parseCalendarPage(html: string): ScrapedEvent[] {
         time,
         ageRange,
         location,
-        description
+        description,
+        eventUrl
       });
     }
   });
@@ -341,6 +364,8 @@ function transformToEvent(scraped: ScrapedEvent, year: number): Event | null {
   const startDateTime = new Date(startDate);
   const endDateTime = new Date(startDateTime.getTime() + 90 * 60 * 1000);
 
+  const activityTypes = inferActivityTypes(scraped.title, scraped.description);
+
   return {
     id: generateEventId(scraped.title, scraped.date),
     title: scraped.title,
@@ -352,10 +377,13 @@ function transformToEvent(scraped: ScrapedEvent, year: number): Event | null {
     address: location.address,
     city: location.city,
     coordinates: location.coordinates,
-    activityTypes: inferActivityTypes(scraped.title, scraped.description),
+    activityTypes,
     ageRange: parseAgeRange(scraped.ageRange),
     cost: { amount: 8, per: 'person' }, // Default cost for Parks programs
-    sourceUrl: 'https://www.fairfaxcounty.gov/parks/park-events-calendar',
+    exhaustionRating: inferExhaustionRating(activityTypes),
+    sourceUrl: scraped.eventUrl.startsWith('http')
+      ? scraped.eventUrl
+      : `https://www.fairfaxcounty.gov${scraped.eventUrl}`,
     source: 'fairfax-parks',
     lastUpdated: new Date().toISOString().slice(0, 10)
   };

@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "refresh-parks": "tsx scripts/refresh-parks.ts"
+    "refresh-parks": "tsx scripts/refresh-parks.ts",
+    "refresh-library": "tsx scripts/refresh-library.ts",
+    "seed-library": "tsx scripts/seed-library.ts"
   },
   "dependencies": {
     "next": "16.1.3",
@@ -22,6 +24,7 @@
     "cheerio": "^1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.3",
+    "playwright": "^1.40.0",
     "tailwindcss": "^4",
     "tsx": "^4.19.0",
     "typescript": "^5"

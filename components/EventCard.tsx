@@ -36,22 +36,23 @@ function formatEventDate(startDate: string): string {
   });
 }
 
-function getActivityIcon(activityTypes: Event['activityTypes']): string {
-  if (activityTypes.includes('nature')) return '🌿';
-  if (activityTypes.includes('science')) return '🔬';
-  if (activityTypes.includes('physical-play')) return '⚡';
-  if (activityTypes.includes('adventure')) return '🎯';
-  if (activityTypes.includes('arts')) return '🎨';
-  if (activityTypes.includes('history')) return '📜';
-  if (activityTypes.includes('educational')) return '📚';
-  if (activityTypes.includes('seasonal')) return '🍂';
-  if (activityTypes.includes('music')) return '🎵';
-  return '✨';
+function getActivityIcon(activityTypes: Event['activityTypes']): { emoji: string; color: string } {
+  if (activityTypes.includes('nature')) return { emoji: '🌿', color: '#4a7c59' };
+  if (activityTypes.includes('science')) return { emoji: '🚀', color: '#5b7fa3' };
+  if (activityTypes.includes('physical-play')) return { emoji: '🤸', color: '#d97706' };
+  if (activityTypes.includes('adventure')) return { emoji: '🎯', color: '#b45309' };
+  if (activityTypes.includes('arts')) return { emoji: '🎨', color: '#9333ea' };
+  if (activityTypes.includes('history')) return { emoji: '🏛️', color: '#92400e' };
+  if (activityTypes.includes('educational')) return { emoji: '📚', color: '#1e3a5f' };
+  if (activityTypes.includes('seasonal')) return { emoji: '🍂', color: '#c2410c' };
+  if (activityTypes.includes('music')) return { emoji: '🎵', color: '#be185d' };
+  return { emoji: '✨', color: '#6b5344' };
 }
 
 export default function EventCard({ event }: EventCardProps) {
   const costDisplay = formatCost(event.cost);
   const isFree = event.cost.per === 'free' || event.cost.amount === 0;
+  const { emoji, color } = getActivityIcon(event.activityTypes);
 
   return (
     <Link href={`/events/${event.id}`} className="group block h-full">
@@ -59,9 +60,14 @@ export default function EventCard({ event }: EventCardProps) {
         {/* Image area */}
         <div className="aspect-[4/3] bg-gradient-to-br from-[#f7f4ee] to-[#e8f3ec] relative overflow-hidden">
           <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-6xl opacity-40 group-hover:scale-110 transition-transform duration-300">
-              {getActivityIcon(event.activityTypes)}
-            </span>
+            <div
+              className="w-28 h-28 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+              style={{ backgroundColor: `${color}15` }}
+            >
+              <span className="text-8xl drop-shadow-sm">
+                {emoji}
+              </span>
+            </div>
           </div>
 
           {/* Date badge for one-time events */}

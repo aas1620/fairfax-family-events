@@ -659,35 +659,6 @@
     "lastUpdated": "2026-01-15"
   },
   {
-    "id": "lib-canceled-toddler-storytim-dolley-mad-20260120",
-    "title": "*** Canceled Toddler Storytime",
-    "description": "Registration required. resenter: Marta Steenstra Davis Dolley Madison Meeting Room 1, Dolley Madison Meeting Room 2 Dolley Madison Library Toddler Storytime returns next week!",
-    "type": "one-time",
-    "startDate": "2026-01-20T10:00",
-    "endDate": "2026-01-20T11:00",
-    "venue": "Dolley Madison Library",
-    "address": "1244 Oak Ridge Ave",
-    "city": "McLean",
-    "coordinates": {
-      "lat": 38.9339,
-      "lng": -77.1772
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 0,
-      "max": 2
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/12630800",
-    "source": "library",
-    "lastUpdated": "2026-01-20"
-  },
-  {
     "id": "lib-valentines-for-seniors-herndon-fo-20260120",
     "title": "Valentines For Seniors",
     "description": "Herndon Fortnightly Library Stop in and make a Valentine's Day card for a senior! All cards will be given to the Herndon Senior Center.",
@@ -1935,36 +1906,6 @@
     },
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/winter-stream-life/013126",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "movie-at-the-gardens-wall-e-ca-jan31",
-    "title": "Movie at the Gardens - 'WALL·E' (Cancelled)",
-    "description": "Please wait while we redirect you to the right page...\n\t  window.location.…",
-    "type": "one-time",
-    "startDate": "2026-01-31T14:30:00",
-    "endDate": "2026-01-31T16:00:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 0,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/movie-gardens-wall-e/013126",
     "source": "fairfax-parks",
     "lastUpdated": "2026-01-21"
   },

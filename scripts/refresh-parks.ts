@@ -47,6 +47,11 @@ const PARK_LOCATIONS: Record<string, { address: string; city: string; coordinate
   'Oakmont': { address: '2800 Sutton Rd', city: 'Vienna', coordinates: { lat: 38.8917, lng: -77.2897 } },
 };
 
+// Check if event is canceled
+function isCanceledEvent(title: string): boolean {
+  return /cancel+ed/i.test(title);
+}
+
 // Activity type mapping based on keywords
 function inferActivityTypes(title: string, description: string): string[] {
   const text = `${title} ${description}`.toLowerCase();
@@ -430,6 +435,11 @@ async function main() {
   const seenIds = new Set<string>();
 
   for (const scraped of allScrapedEvents) {
+    // Skip canceled events
+    if (isCanceledEvent(scraped.title)) {
+      console.log(`  Skipping canceled event: ${scraped.title}`);
+      continue;
+    }
     const event = transformToEvent(scraped, currentYear);
     if (event && !seenIds.has(event.id)) {
       seenIds.add(event.id);

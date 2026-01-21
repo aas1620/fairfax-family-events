@@ -182,6 +182,11 @@ function isFamilyEvent(audience: string): boolean {
   return FAMILY_AUDIENCES.some(keyword => lower.includes(keyword));
 }
 
+// Check if event is canceled
+function isCanceledEvent(title: string): boolean {
+  return /cancel+ed/i.test(title);
+}
+
 interface RssEvent {
   title: string;
   link: string;
@@ -389,6 +394,11 @@ async function main() {
   // Add new events from RSS
   let addedCount = 0;
   for (const rss of familyEvents) {
+    // Skip canceled events
+    if (isCanceledEvent(rss.title)) {
+      console.log(`  Skipping canceled event: ${rss.title}`);
+      continue;
+    }
     const event = transformToEvent(rss);
     if (!seenIds.has(event.id)) {
       seenIds.add(event.id);

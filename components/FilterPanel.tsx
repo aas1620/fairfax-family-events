@@ -147,28 +147,6 @@ export default function FilterPanel({
         </div>
       </div>
 
-      {/* Activity Types */}
-      <div className="mb-6">
-        <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2.5">
-          Activity Type
-        </h3>
-        <div className="flex flex-wrap gap-2">
-          {(Object.keys(ACTIVITY_LABELS) as ActivityType[]).map((activity) => (
-            <button
-              key={activity}
-              onClick={() => handleActivityToggle(activity)}
-              className={`text-sm px-3.5 py-2 rounded-xl transition-all font-medium ${
-                filters.activityTypes.includes(activity)
-                  ? 'bg-[#5a9470] text-white shadow-sm'
-                  : 'bg-[#f7f4ee] text-[#5c5850] hover:bg-[#f0ebe0]'
-              }`}
-            >
-              {ACTIVITY_LABELS[activity]}
-            </button>
-          ))}
-        </div>
-      </div>
-
       {/* Age Range */}
       <div className="mb-6">
         <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2.5">
@@ -197,6 +175,28 @@ export default function FilterPanel({
               </button>
             );
           })}
+        </div>
+      </div>
+
+      {/* Activity Types */}
+      <div className="mb-6">
+        <h3 className="text-xs font-semibold text-[#8a8578] uppercase tracking-wider mb-2.5">
+          Activity Type
+        </h3>
+        <div className="flex flex-wrap gap-2">
+          {(Object.keys(ACTIVITY_LABELS) as ActivityType[]).map((activity) => (
+            <button
+              key={activity}
+              onClick={() => handleActivityToggle(activity)}
+              className={`text-sm px-3.5 py-2 rounded-xl transition-all font-medium ${
+                filters.activityTypes.includes(activity)
+                  ? 'bg-[#5a9470] text-white shadow-sm'
+                  : 'bg-[#f7f4ee] text-[#5c5850] hover:bg-[#f0ebe0]'
+              }`}
+            >
+              {ACTIVITY_LABELS[activity]}
+            </button>
+          ))}
         </div>
       </div>
 

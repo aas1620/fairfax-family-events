@@ -1211,371 +1211,6 @@
     "lastUpdated": "2026-01-20"
   },
   {
-    "id": "event-is-full-dark-sky-educati-jan23",
-    "title": "(Event is FULL) Dark Sky Education and Celebration Event",
-    "description": "Observatory Park at Turner Farm will host a Dark Sky education and celebration…",
-    "type": "one-time",
-    "startDate": "2026-01-23T18:00:00",
-    "endDate": "2026-01-23T19:30:00",
-    "venue": "Turner Farm",
-    "address": "925 Springvale Rd",
-    "city": "Great Falls",
-    "coordinates": {
-      "lat": 38.9728,
-      "lng": -77.2867
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 0,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/dark-sky-education-celebration/012326",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "wonderful-woodpeckers-jan24",
-    "title": "Wonderful Woodpeckers",
-    "description": "Woodpeckers are keystone species which help many other forest…",
-    "type": "one-time",
-    "startDate": "2026-01-24T09:30:00",
-    "endDate": "2026-01-24T11:00:00",
-    "venue": "Hidden Oaks Nature Center",
-    "address": "7701 Royce St",
-    "city": "Annandale",
-    "coordinates": {
-      "lat": 38.8302,
-      "lng": -77.2006
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 16,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/wonderful-woodpeckers/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "little-gardeners-jan24",
-    "title": "Little Gardeners",
-    "description": "Explore the ever-changing landscape of the garden. Each week,…",
-    "type": "one-time",
-    "startDate": "2026-01-24T10:30:00",
-    "endDate": "2026-01-24T12:00:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 2,
-      "max": 6
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/little-gardeners/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "garden-talk-everything-about-o-jan24",
-    "title": "Garden Talk - Everything About Orchids",
-    "description": "Join Extension Master Gardeners to learn about the different types…",
-    "type": "one-time",
-    "startDate": "2026-01-24T10:30:00",
-    "endDate": "2026-01-24T12:00:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "nature",
-      "educational"
-    ],
-    "ageRange": {
-      "min": 16,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/everything-about-orchids/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "going-green-workshop-sustainab-jan24",
-    "title": "Going Green Workshop - Sustainable Swaps",
-    "description": "Single-use plastics and papers are pervasive in every aspect of our…",
-    "type": "one-time",
-    "startDate": "2026-01-24T13:00:00",
-    "endDate": "2026-01-24T14:30:00",
-    "venue": "Riverbend Park",
-    "address": "8700 Potomac Hills St",
-    "city": "Great Falls",
-    "coordinates": {
-      "lat": 39.0178,
-      "lng": -77.2447
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 14,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/going-green-sustainable-swaps/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "historic-radios-on-the-farm-jan24",
-    "title": "Historic Radios on the Farm",
-    "description": "Few things improved the daily life of the farm family more than the…",
-    "type": "one-time",
-    "startDate": "2026-01-24T16:00:00",
-    "endDate": "2026-01-24T17:30:00",
-    "venue": "Frying Pan Farm Park",
-    "address": "2709 West Ox Rd",
-    "city": "Herndon",
-    "coordinates": {
-      "lat": 38.9289,
-      "lng": -77.3506
-    },
-    "activityTypes": [
-      "history"
-    ],
-    "ageRange": {
-      "min": 14,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/historic-radios/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "nature-s-architects-biomimicry-jan24",
-    "title": "Nature's Architects - Biomimicry Building",
-    "description": "Examine the sophisticated structural engineering found in animal…",
-    "type": "one-time",
-    "startDate": "2026-01-24T16:30:00",
-    "endDate": "2026-01-24T18:00:00",
-    "venue": "Lake Accotink Park",
-    "address": "7500 Accotink Park Rd",
-    "city": "Springfield",
-    "coordinates": {
-      "lat": 38.7926,
-      "lng": -77.2203
-    },
-    "activityTypes": [
-      "nature",
-      "science"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/natures-architects-biomimicry/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "mysterious-space-jan24",
-    "title": "Mysterious Space",
-    "description": "Chase away Winter boredom by going on an interactive space adventure…",
-    "type": "one-time",
-    "startDate": "2026-01-24T18:30:00",
-    "endDate": "2026-01-24T20:00:00",
-    "venue": "Hidden Oaks Nature Center",
-    "address": "7701 Royce St",
-    "city": "Annandale",
-    "coordinates": {
-      "lat": 38.8302,
-      "lng": -77.2006
-    },
-    "activityTypes": [
-      "science",
-      "adventure",
-      "physical-play"
-    ],
-    "ageRange": {
-      "min": 7,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 4,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/mysterious-space/012426",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "birds-and-beans-jan25",
-    "title": "Birds and Beans",
-    "description": "Enjoy a hot cup of coffee while you hike with a naturalist and look…",
-    "type": "one-time",
-    "startDate": "2026-01-25T08:00:00",
-    "endDate": "2026-01-25T09:30:00",
-    "venue": "Burke Lake Park",
-    "address": "7315 Ox Rd",
-    "city": "Fairfax Station",
-    "coordinates": {
-      "lat": 38.7598,
-      "lng": -77.2969
-    },
-    "activityTypes": [
-      "nature",
-      "adventure"
-    ],
-    "ageRange": {
-      "min": 4,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 4,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/birds-beans/012526",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "dino-puppet-show-and-activitie-jan25",
-    "title": "Dino Puppet Show and Activities",
-    "description": "Dinosaurs once roamed all the Earth in places far and near. Enjoy a…",
-    "type": "one-time",
-    "startDate": "2026-01-25T13:30:00",
-    "endDate": "2026-01-25T15:00:00",
-    "venue": "Hidden Oaks Nature Center",
-    "address": "7701 Royce St",
-    "city": "Annandale",
-    "coordinates": {
-      "lat": 38.8302,
-      "lng": -77.2006
-    },
-    "activityTypes": [
-      "arts"
-    ],
-    "ageRange": {
-      "min": 4,
-      "max": 8
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 2,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/dino-puppet-show/012526a",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "winter-lecture-online-conserva-jan25",
-    "title": "Winter Lecture Online-Conservation Detection Dogs",
-    "description": "Dogs are well known for their powerful noses, and those sniffing…",
-    "type": "one-time",
-    "startDate": "2026-01-25T13:30:00",
-    "endDate": "2026-01-25T15:00:00",
-    "venue": "Green Spring Gardens",
-    "address": "4603 Green Spring Rd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7874,
-      "lng": -77.1153
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 16,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/winter-lecture-conservation-detection-dogs/012526",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "roundup-playtime-jan28",
-    "title": "Roundup Playtime",
-    "description": "Enjoy 2 hours of unstructured themed play time to meet new friends…",
-    "type": "one-time",
-    "startDate": "2026-01-28T10:00:00",
-    "endDate": "2026-01-28T11:30:00",
-    "venue": "Frying Pan Farm Park",
-    "address": "2709 West Ox Rd",
-    "city": "Herndon",
-    "coordinates": {
-      "lat": 38.9289,
-      "lng": -77.3506
-    },
-    "activityTypes": [
-      "physical-play"
-    ],
-    "ageRange": {
-      "min": 1,
-      "max": 6
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 4,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/roundup-playtime/012826",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
     "id": "outdoor-science-lab-at-huntley-jan29",
     "title": "Outdoor Science Lab at Huntley",
     "description": "Explore the exciting world of science with fun hands-on experiments,…",
@@ -1603,37 +1238,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/outdoor-science-lab/012926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "snake-and-turtle-feeding-jan29",
-    "title": "Snake and Turtle Feeding",
-    "description": "Enjoy a brief presentation and demonstration by our animal caretaker…",
-    "type": "one-time",
-    "startDate": "2026-01-29T14:00:00",
-    "endDate": "2026-01-29T15:30:00",
-    "venue": "Hidden Oaks Nature Center",
-    "address": "7701 Royce St",
-    "city": "Annandale",
-    "coordinates": {
-      "lat": 38.8302,
-      "lng": -77.2006
-    },
-    "activityTypes": [
-      "nature"
-    ],
-    "ageRange": {
-      "min": 4,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/snake-turtle-feeding/012926",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "animal-tea-party-jan30",
@@ -1664,7 +1269,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/animal-tea-party/013026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "introduction-to-astronomy-jan30",
@@ -1694,7 +1299,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/introduction-astronomy/013026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "super-salamander-healing-lab-jan31",
@@ -1725,7 +1330,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/super-salamander-healing-lab/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "garden-exploration-a-stargazer-jan31",
@@ -1756,7 +1361,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/garden-exploration-stargazer/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "furry-foxes-jan31",
@@ -1786,7 +1391,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/furry-foxes/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "animal-tea-party-jan31",
@@ -1817,7 +1422,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/animal-tea-party/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "forest-flora-frenzy-plant-powe-jan31",
@@ -1847,7 +1452,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/forest-flora-frenzy/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "family-fun-growing-green-with--jan31",
@@ -1877,7 +1482,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/family-fun-growing-recycled/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-stream-life-jan31",
@@ -1907,7 +1512,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/winter-stream-life/013126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-lecture-moon-gardens-feb01",
@@ -1938,7 +1543,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/winter-lectures-moon-gardens/020126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "remembering-metilda-growing-up-feb01",
@@ -1969,7 +1574,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/remembering-metilda/020126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-lakeside-lantern-walks-feb01",
@@ -1999,7 +1604,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/winter-lakeside-lanter-walk/020126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "full-moon-nature-hike-and-camp-feb01",
@@ -2030,7 +1635,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/full-moon-nature-hike-campfire/020126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "little-hands-on-the-farm-feb02",
@@ -2060,7 +1665,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/little-hands-two-three/020226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "world-wetlands-day-sketch-hike-feb02",
@@ -2092,7 +1697,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/world-wetlands-walk/020226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "wetland-at-dusk-walk-feb02",
@@ -2123,7 +1728,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/wetland-dusk-walk/020226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "corn-grinding-and-clay-pottery-feb04",
@@ -2155,7 +1760,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/corn-grinding-clay-pottery/020426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "hot-cocoa-wetland-night-hike-feb06",
@@ -2186,7 +1791,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hot-cocoa-wetland-night-hike/020626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "make-your-own-pinecone-birdfee-feb07",
@@ -2216,7 +1821,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/make-pinecone-bird-feeders/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "biology-of-the-despised-feb07",
@@ -2247,7 +1852,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/biology-despised/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "lichens-sketch-hike-feb07",
@@ -2278,7 +1883,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/lichens-sketch-hike/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "custom-valentine-making-feb07",
@@ -2309,7 +1914,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/custom-valentine-making/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "to-build-a-fire-feb07",
@@ -2341,7 +1946,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/to-build-fire/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "spellbinders-tales-of-tails-feb07",
@@ -2371,7 +1976,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/spellbinders/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "black-history-month-at-the-mee-feb07",
@@ -2401,7 +2006,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/black-history-month-meetinghouse/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "washington-gardener-seed-excha-feb07",
@@ -2431,7 +2036,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/washington-seed-exchange/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "going-green-workshop-clean-con-feb07",
@@ -2462,7 +2067,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/going-green-clean-conscience/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "sensory-superpowers-super-skin-feb07",
@@ -2493,7 +2098,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/sensory-superpowers-skin-science/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "garden-artists-naturally-yours-feb07",
@@ -2525,7 +2130,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/garden-artists-naturally-yours/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "nature-diy-valentines-feb07",
@@ -2557,7 +2162,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/nature-diy-valentines/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "campfire-saturdays-stargazing-feb07",
@@ -2589,7 +2194,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/campfire-saturdays-stargazing/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "animal-pajama-party-feb07",
@@ -2620,7 +2225,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/animal-pajama-party/020726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-waterfowl-hike-feb08",
@@ -2651,7 +2256,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/winter-waterfowl-hike/020826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "penguins-and-polar-bears-feb08",
@@ -2682,7 +2287,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/penguins-polar-bears/020826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "naturally-crafted-feb08",
@@ -2712,7 +2317,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/naturally-crafted/020826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "make-your-own-pinecone-birdfee-feb08",
@@ -2742,7 +2347,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/make-pinecone-birdfeeders/020826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "owl-walk-and-talk-feb08",
@@ -2774,7 +2379,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/owl-walk-talk/020826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "flying-squirrel-campfire-feb08",
@@ -2805,7 +2410,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/flying-squirrel-campfire/020826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "homeschool-science-introductio-feb09",
@@ -2837,7 +2442,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/homeschool-science-ornithology/020926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "nature-tots-feb09",
@@ -2867,7 +2472,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/nature-tots/020926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "garden-sprouts-winter-nature-p-feb09",
@@ -2898,15 +2503,15 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/garden-sprouts-winter-nature-playgroup/020926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
-    "id": "roundup-playtime-feb11",
+    "id": "roundup-playtime-feb10",
     "title": "Roundup Playtime",
     "description": "Enjoy 2 hours of unstructured themed play time to meet new friends…",
     "type": "one-time",
-    "startDate": "2026-02-11T10:00:00",
-    "endDate": "2026-02-11T11:30:00",
+    "startDate": "2026-02-10T10:00:00",
+    "endDate": "2026-02-10T11:30:00",
     "venue": "Frying Pan Farm Park",
     "address": "2709 West Ox Rd",
     "city": "Herndon",
@@ -2928,7 +2533,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/roundup-playtime/021126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "history-hoppers-feb11",
@@ -2958,7 +2563,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/history-hoppers/021126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "identifying-and-removing-invas-feb11",
@@ -2988,7 +2593,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/nature-history/identifying-removing-invasive-species-mount-vernon-rec-center/021126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "animal-feeding-feb11",
@@ -3018,7 +2623,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/animal-feeding/021126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "outdoor-science-lab-at-huntley-feb12",
@@ -3048,7 +2653,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/outdoor-science-slime/021226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-storytime-valentine-s-d-feb14",
@@ -3081,7 +2686,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/winter-storytime-valentines/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "family-fun-nature-folklore-feb14",
@@ -3114,7 +2719,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/family-fun-nature-folklore/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "art-of-the-heart-lecture-only-feb14",
@@ -3146,7 +2751,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/art-heart-lecture/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "art-of-the-heart-feb14",
@@ -3177,7 +2782,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/historic-house/art-of-heart-tea/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "valentine-s-day-science-feb14",
@@ -3209,7 +2814,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/valentines-day-science/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "valentine-s-stargazing-stroll-feb14",
@@ -3241,7 +2846,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/valentines-stargazing-stroll/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "couples-evening-at-the-nature--feb14",
@@ -3273,7 +2878,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/couples-evening/021426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-woods-hike-and-craft-feb15",
@@ -3305,7 +2910,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-woods-hike-craft/021526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "maple-syrup-boil-down-feb15",
@@ -3335,7 +2940,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/maple-syrup-boildown/021526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "winter-lecture-colonial-seed-e-feb15",
@@ -3366,7 +2971,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/winter-lecture-colonial-seed-exchange/021525",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "caribbean-reef-puppet-show-feb15",
@@ -3396,7 +3001,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/caribbean-reef-puppet-show/021526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "making-ice-and-ice-cream-at-wa-feb15",
@@ -3426,7 +3031,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/making-ice-cream/021526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "sensory-friendly-time-at-cub-r-feb17",
@@ -3456,7 +3061,99 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/cub-run/sensory-friendly-time/021726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "campfire-fridays-feb20",
+    "title": "Campfire Fridays",
+    "description": "Join us for an evening campfire the whole family can enjoy. Explore…",
+    "type": "one-time",
+    "startDate": "2026-02-20T18:00:00",
+    "endDate": "2026-02-20T19:30:00",
+    "venue": "Hidden Pond Nature Center",
+    "address": "8511 Greeley Blvd",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 38.7867,
+      "lng": -77.2267
+    },
+    "activityTypes": [
+      "adventure"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/campfire-fridays/022026",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "winter-bird-walk-feb21",
+    "title": "Winter Bird Walk",
+    "description": "Take a hike through the woods with a naturalist to listen and look…",
+    "type": "one-time",
+    "startDate": "2026-02-21T08:00:00",
+    "endDate": "2026-02-21T09:30:00",
+    "venue": "Riverbend Park",
+    "address": "8700 Potomac Hills St",
+    "city": "Great Falls",
+    "coordinates": {
+      "lat": 39.0178,
+      "lng": -77.2447
+    },
+    "activityTypes": [
+      "nature",
+      "adventure"
+    ],
+    "ageRange": {
+      "min": 4,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/winter-bird-walk/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "workshop-hand-bound-watercolor-feb21",
+    "title": "Workshop - Hand-Bound Watercolor Journal",
+    "description": "Make a hand-bound journal by sewing signatures together filled with…",
+    "type": "one-time",
+    "startDate": "2026-02-21T09:30:00",
+    "endDate": "2026-02-21T11:00:00",
+    "venue": "Green Spring Gardens",
+    "address": "4603 Green Spring Rd",
+    "city": "Alexandria",
+    "coordinates": {
+      "lat": 38.7874,
+      "lng": -77.1153
+    },
+    "activityTypes": [
+      "nature",
+      "educational"
+    ],
+    "ageRange": {
+      "min": 16,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/hand-bound-watercolor-journal/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "gcf-maple-sugar-days",
@@ -3496,6 +3193,37 @@
     "lastUpdated": "2026-01-18"
   },
   {
+    "id": "sensory-superpowers-super-skin-feb21",
+    "title": "Sensory Superpowers - Super Skin Science",
+    "description": "Investigate the amazing properties of animal skin and sensory systems…",
+    "type": "one-time",
+    "startDate": "2026-02-21T10:00:00",
+    "endDate": "2026-02-21T11:30:00",
+    "venue": "Lake Accotink Park",
+    "address": "7500 Accotink Park Rd",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 38.7926,
+      "lng": -77.2203
+    },
+    "activityTypes": [
+      "nature",
+      "science"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/sensory-superpowers-skin-science/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
     "id": "black-history-month-at-the-mee-feb21",
     "title": "Black History Month at the Meeting House",
     "description": "In honor of Black History Month, the Frying Pan Baptist Meetinghouse…",
@@ -3523,7 +3251,37 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/black-history-month-meetinghouse/022126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "feeding-day-feb21",
+    "title": "Feeding Day",
+    "description": "Join a naturalist as they demonstrate how we feed our site display…",
+    "type": "one-time",
+    "startDate": "2026-02-21T13:00:00",
+    "endDate": "2026-02-21T14:30:00",
+    "venue": "Eclawrence",
+    "address": "Fairfax County",
+    "city": "Fairfax",
+    "coordinates": {
+      "lat": 38.8462,
+      "lng": -77.3064
+    },
+    "activityTypes": [
+      "physical-play"
+    ],
+    "ageRange": {
+      "min": 4,
+      "max": 13
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/feeding-day/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "biology-of-the-despised-feb21",
@@ -3554,7 +3312,37 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/biology-despised/022126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "upcycle-your-world-feb21",
+    "title": "Upcycle Your World",
+    "description": "Join us for a super green hands-on workshop where you reuse, recycle…",
+    "type": "one-time",
+    "startDate": "2026-02-21T14:00:00",
+    "endDate": "2026-02-21T15:30:00",
+    "venue": "Frying Pan Farm Park",
+    "address": "2709 West Ox Rd",
+    "city": "Herndon",
+    "coordinates": {
+      "lat": 38.9289,
+      "lng": -77.3506
+    },
+    "activityTypes": [
+      "educational"
+    ],
+    "ageRange": {
+      "min": 8,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 1,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/upcycle-your-world/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "your-yard-or-balcony-can-be-a--feb21",
@@ -3584,7 +3372,221 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/nature-history/yard-balcony-polinator-garden-audrey-moore/022126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-01-21"
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "taste-a-world-of-chocolate-feb21",
+    "title": "Taste a World of Chocolate",
+    "description": "Explore the world of craft chocolate with River-Sea Chocolates. Learn…",
+    "type": "one-time",
+    "startDate": "2026-02-21T16:00:00",
+    "endDate": "2026-02-21T17:30:00",
+    "venue": "Colvin Run Mill",
+    "address": "10017 Colvin Run Rd",
+    "city": "Great Falls",
+    "coordinates": {
+      "lat": 38.9378,
+      "lng": -77.2442
+    },
+    "activityTypes": [
+      "arts",
+      "educational"
+    ],
+    "ageRange": {
+      "min": 18,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/taste-world-chocolate/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "ice-ten-math-mystery-feb21",
+    "title": "Ice-Ten Math Mystery",
+    "description": "Ice-ten, a polymorph of ice, has been stolen from a secret research…",
+    "type": "one-time",
+    "startDate": "2026-02-21T16:30:00",
+    "endDate": "2026-02-21T18:00:00",
+    "venue": "Hidden Oaks Nature Center",
+    "address": "7701 Royce St",
+    "city": "Annandale",
+    "coordinates": {
+      "lat": 38.8302,
+      "lng": -77.2006
+    },
+    "activityTypes": [
+      "educational"
+    ],
+    "ageRange": {
+      "min": 8,
+      "max": 12
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 1,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/ice-ten-math-mystery/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "campfire-saturdays-stargazing-feb21",
+    "title": "Campfire Saturdays - Stargazing",
+    "description": "Enjoy a stroll along the lake shores and learn about the…",
+    "type": "one-time",
+    "startDate": "2026-02-21T18:00:00",
+    "endDate": "2026-02-21T19:30:00",
+    "venue": "Burke Lake Park",
+    "address": "7315 Ox Rd",
+    "city": "Fairfax Station",
+    "coordinates": {
+      "lat": 38.7598,
+      "lng": -77.2969
+    },
+    "activityTypes": [
+      "science",
+      "adventure",
+      "educational"
+    ],
+    "ageRange": {
+      "min": 3,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/campfire-saturdays-stargazing/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "lunar-new-year-celebration-feb21",
+    "title": "Lunar New Year Celebration",
+    "description": "Get ready…",
+    "type": "one-time",
+    "startDate": "2026-02-21T18:00:00",
+    "endDate": "2026-02-21T19:30:00",
+    "venue": "Twin Lakes Golf Course",
+    "address": "6201 Union Mill Rd",
+    "city": "Clifton",
+    "coordinates": {
+      "lat": 38.8078,
+      "lng": -77.4311
+    },
+    "activityTypes": [
+      "seasonal"
+    ],
+    "ageRange": {
+      "min": 3,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/twin-lakes/lunar-new-year/020826",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "family-skate-and-dance-night-d-feb21",
+    "title": "Family Skate and Dance Night: Disco Blast Back to the 70s",
+    "description": "Celebrate love and disco as we transport you back to funky music from the 70s…",
+    "type": "one-time",
+    "startDate": "2026-02-21T18:00:00",
+    "endDate": "2026-02-21T19:30:00",
+    "venue": "Reccenter",
+    "address": "Fairfax County",
+    "city": "Fairfax",
+    "coordinates": {
+      "lat": 38.8462,
+      "lng": -77.3064
+    },
+    "activityTypes": [
+      "music"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/franconia/disco-blast/022126",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "winter-bird-walk-feb22",
+    "title": "Winter Bird Walk",
+    "description": "Take a hike through the woods with a naturalist to listen and look…",
+    "type": "one-time",
+    "startDate": "2026-02-22T11:00:00",
+    "endDate": "2026-02-22T12:30:00",
+    "venue": "Burke Lake Park",
+    "address": "7315 Ox Rd",
+    "city": "Fairfax Station",
+    "coordinates": {
+      "lat": 38.7598,
+      "lng": -77.2969
+    },
+    "activityTypes": [
+      "nature",
+      "adventure"
+    ],
+    "ageRange": {
+      "min": 4,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-bird-walk/022226",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
+  },
+  {
+    "id": "maple-syrup-boil-down-feb22",
+    "title": "Maple Syrup Boil Down",
+    "description": "The sap is rising and the maple trees are tapped. Bundle up to brave…",
+    "type": "one-time",
+    "startDate": "2026-02-22T11:00:00",
+    "endDate": "2026-02-22T12:30:00",
+    "venue": "Colvin Run Mill",
+    "address": "10017 Colvin Run Rd",
+    "city": "Great Falls",
+    "coordinates": {
+      "lat": 38.9378,
+      "lng": -77.2442
+    },
+    "activityTypes": [
+      "nature"
+    ],
+    "ageRange": {
+      "min": 4,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/maple-syrup-boildown/022226",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-01-28"
   },
   {
     "id": "gcf-easter-egg-hunt",

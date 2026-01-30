@@ -63,6 +63,18 @@ export function filterEvents(events: Event[], filters: FilterState): Event[] {
   const dateRange = getDateRangeForPreset(filters.datePreset);
 
   const filtered = events.filter((event) => {
+    // Always hide past one-time events
+    if (event.type === 'one-time') {
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const eventEnd = event.endDate
+        ? new Date(event.endDate)
+        : event.startDate
+          ? new Date(event.startDate)
+          : null;
+      if (eventEnd && eventEnd < today) return false;
+    }
+
     // Activity type filter
     if (filters.activityTypes.length > 0) {
       const hasMatchingActivity = filters.activityTypes.some((activity) =>

@@ -1,17 +1,20 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { getAllEvents } from '@/lib/data';
 import { filterEvents, getInitialFilterState, countActiveFilters } from '@/lib/filters';
 import { FilterState } from '@/lib/types';
 import EventList from '@/components/EventList';
 import FilterPanel from '@/components/FilterPanel';
 import MobileFilterDrawer from '@/components/MobileFilterDrawer';
+import HeroSection from '@/components/HeroSection';
+import SocialProof from '@/components/SocialProof';
+import QuickPicks from '@/components/QuickPicks';
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(getInitialFilterState());
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [activeQuickPick, setActiveQuickPick] = useState<string | null>(null);
 
   const allEvents = getAllEvents();
   const filteredEvents = filterEvents(allEvents, filters);
@@ -19,78 +22,32 @@ export default function HomePage() {
 
   const handleResetFilters = () => {
     setFilters(getInitialFilterState());
+    setActiveQuickPick(null);
+  };
+
+  const handleQuickPickChange = (pick: string | null, newFilters: FilterState) => {
+    setActiveQuickPick(pick);
+    setFilters(newFilters);
+  };
+
+  const handleFilterChange = (newFilters: FilterState) => {
+    setFilters(newFilters);
+    // Clear quick pick when user manually changes filters
+    setActiveQuickPick(null);
   };
 
   return (
     <div className="min-h-screen bg-[#fdfcfa]">
       {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        {/* Background pattern */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a5f] via-[#264a73] to-[#2d5a87]" />
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-[#5a9470] blur-3xl" />
-          <div className="absolute bottom-10 right-20 w-96 h-96 rounded-full bg-[#c4a882] blur-3xl" />
-        </div>
+      <HeroSection />
 
-        <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
-          <div className="max-w-2xl">
-            <p className="text-[#7ab592] font-medium tracking-wide uppercase text-sm mb-4">
-              Fairfax County & Northern Virginia
-            </p>
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl leading-tight">
-              Weekend adventures
-              <br />
-              <span className="text-[#d4c4a8]">for the whole family</span>
-            </h1>
-            <p className="mt-6 text-lg text-[#a8c4d4] leading-relaxed max-w-xl">
-              Discover parks, museums, farms, and family-friendly events across
-              Fairfax County. From free outdoor fun to exciting indoor adventures.
-            </p>
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link
-                href="/events"
-                className="inline-flex items-center rounded-xl bg-[#5a9470] px-6 py-3.5 font-semibold text-white hover:bg-[#4a7d5e] transition-colors shadow-lg shadow-[#5a9470]/25"
-              >
-                Explore Activities
-                <svg
-                  className="ml-2 h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="2"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </Link>
-              <Link
-                href="/about"
-                className="inline-flex items-center rounded-xl bg-white/10 backdrop-blur-sm px-6 py-3.5 font-semibold text-white hover:bg-white/20 transition-colors border border-white/20"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom curve */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" fill="none" className="w-full h-auto">
-            <path
-              d="M0 60V30C240 10 480 0 720 0s480 10 720 30v30H0z"
-              fill="#fdfcfa"
-            />
-          </svg>
-        </div>
-      </section>
+      {/* Social Proof (Stats + Testimonials) */}
+      <SocialProof />
 
       {/* Main Content */}
-      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <section id="activities" className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-2xl font-bold text-[#3d3a35]">
               Discover Activities
@@ -128,6 +85,12 @@ export default function HomePage() {
           </button>
         </div>
 
+        {/* Quick Picks */}
+        <QuickPicks
+          activeQuickPick={activeQuickPick}
+          onQuickPickChange={handleQuickPickChange}
+        />
+
         {/* Desktop: Sidebar + Grid Layout */}
         <div className="lg:grid lg:grid-cols-4 lg:gap-8">
           {/* Desktop Filters Sidebar */}
@@ -135,7 +98,7 @@ export default function HomePage() {
             <div className="sticky top-24">
               <FilterPanel
                 filters={filters}
-                onFilterChange={setFilters}
+                onFilterChange={handleFilterChange}
                 onReset={handleResetFilters}
               />
             </div>
@@ -143,7 +106,78 @@ export default function HomePage() {
 
           {/* Event Grid */}
           <div className="lg:col-span-3">
-            <EventList events={filteredEvents} />
+            {filteredEvents.length > 0 ? (
+              <EventList events={filteredEvents} />
+            ) : (
+              /* Empty state */
+              <div className="text-center py-16 bg-white rounded-2xl border border-[#e5dccb]">
+                <div className="w-20 h-20 bg-[#f7f4ee] rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-[#8a8578]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold text-[#3d3a35] mb-2">
+                  No activities match your filters
+                </h3>
+                <p className="text-[#8a8578] max-w-md mx-auto mb-6">
+                  Try adjusting your filters or clearing them to see all available activities.
+                </p>
+                <button
+                  onClick={handleResetFilters}
+                  className="px-6 py-2.5 bg-[#5a9470] text-white font-medium rounded-xl hover:bg-[#4a7d5e] transition-colors"
+                >
+                  Clear all filters
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section id="how-it-works" className="py-16 bg-[#f7f4ee]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl lg:text-3xl font-bold text-[#1e3a5f] text-center mb-12">
+            How It Works
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-[#5a9470]/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-[#5a9470]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                        d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-[#1e3a5f] text-lg mb-2">Filter by what matters</h3>
+              <p className="text-[#8a8578]">
+                Age, cost, energy level, and location. Find activities that fit your family.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-[#5a9470]/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-[#5a9470]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-[#1e3a5f] text-lg mb-2">Save your favorites</h3>
+              <p className="text-[#8a8578]">
+                Tap the heart to save activities for later. No account needed.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-[#5a9470]/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-[#5a9470]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-[#1e3a5f] text-lg mb-2">Enjoy your weekend</h3>
+              <p className="text-[#8a8578]">
+                Spend less time planning, more time making memories.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -153,7 +187,7 @@ export default function HomePage() {
         isOpen={mobileFilterOpen}
         onClose={() => setMobileFilterOpen(false)}
         filters={filters}
-        onFilterChange={setFilters}
+        onFilterChange={handleFilterChange}
         onReset={handleResetFilters}
         resultCount={filteredEvents.length}
       />

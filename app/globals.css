@@ -80,3 +80,72 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: var(--tan-500);
 }
+
+/* Hide scrollbar for quick picks horizontal scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Staggered card entrance animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.activity-card {
+  animation: fadeInUp 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+.activity-card:nth-child(1) { animation-delay: 0.05s; }
+.activity-card:nth-child(2) { animation-delay: 0.1s; }
+.activity-card:nth-child(3) { animation-delay: 0.15s; }
+.activity-card:nth-child(4) { animation-delay: 0.2s; }
+.activity-card:nth-child(5) { animation-delay: 0.25s; }
+.activity-card:nth-child(6) { animation-delay: 0.3s; }
+.activity-card:nth-child(7) { animation-delay: 0.35s; }
+.activity-card:nth-child(8) { animation-delay: 0.4s; }
+.activity-card:nth-child(9) { animation-delay: 0.45s; }
+.activity-card:nth-child(10) { animation-delay: 0.5s; }
+.activity-card:nth-child(11) { animation-delay: 0.55s; }
+.activity-card:nth-child(12) { animation-delay: 0.6s; }
+
+/* For cards beyond 12, use a consistent delay */
+.activity-card:nth-child(n+13) {
+  animation-delay: 0.65s;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .activity-card {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--fern-500);
+  outline-offset: 2px;
+}
+
+/* Button press effect */
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}

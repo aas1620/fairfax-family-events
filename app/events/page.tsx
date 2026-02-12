@@ -8,10 +8,12 @@ import { FilterState } from '@/lib/types';
 import EventList from '@/components/EventList';
 import FilterPanel from '@/components/FilterPanel';
 import MobileFilterDrawer from '@/components/MobileFilterDrawer';
+import QuickPicks from '@/components/QuickPicks';
 
 export default function EventsPage() {
   const [filters, setFilters] = useState<FilterState>(getInitialFilterState());
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [activeQuickPick, setActiveQuickPick] = useState<string | null>(null);
 
   const allEvents = getAllEvents();
   const filteredEvents = filterEvents(allEvents, filters);
@@ -19,6 +21,17 @@ export default function EventsPage() {
 
   const handleResetFilters = () => {
     setFilters(getInitialFilterState());
+    setActiveQuickPick(null);
+  };
+
+  const handleQuickPickChange = (pick: string | null, newFilters: FilterState) => {
+    setActiveQuickPick(pick);
+    setFilters(newFilters);
+  };
+
+  const handleFilterChange = (newFilters: FilterState) => {
+    setFilters(newFilters);
+    setActiveQuickPick(null);
   };
 
   return (
@@ -40,7 +53,7 @@ export default function EventsPage() {
 
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Page Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="text-3xl font-bold text-[#3d3a35]">All Activities</h1>
             <p className="text-[#8a8578] mt-1">
@@ -76,6 +89,12 @@ export default function EventsPage() {
           </button>
         </div>
 
+        {/* Quick Picks */}
+        <QuickPicks
+          activeQuickPick={activeQuickPick}
+          onQuickPickChange={handleQuickPickChange}
+        />
+
         {/* Desktop: Sidebar + Grid Layout */}
         <div className="lg:grid lg:grid-cols-4 lg:gap-8">
           {/* Desktop Filters Sidebar */}
@@ -83,7 +102,7 @@ export default function EventsPage() {
             <div className="sticky top-24">
               <FilterPanel
                 filters={filters}
-                onFilterChange={setFilters}
+                onFilterChange={handleFilterChange}
                 onReset={handleResetFilters}
               />
             </div>
@@ -91,7 +110,31 @@ export default function EventsPage() {
 
           {/* Event Grid */}
           <div className="lg:col-span-3">
-            <EventList events={filteredEvents} />
+            {filteredEvents.length > 0 ? (
+              <EventList events={filteredEvents} />
+            ) : (
+              /* Empty state */
+              <div className="text-center py-16 bg-white rounded-2xl border border-[#e5dccb]">
+                <div className="w-20 h-20 bg-[#f7f4ee] rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-[#8a8578]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold text-[#3d3a35] mb-2">
+                  No activities match your filters
+                </h3>
+                <p className="text-[#8a8578] max-w-md mx-auto mb-6">
+                  Try adjusting your filters or clearing them to see all available activities.
+                </p>
+                <button
+                  onClick={handleResetFilters}
+                  className="px-6 py-2.5 bg-[#5a9470] text-white font-medium rounded-xl hover:bg-[#4a7d5e] transition-colors"
+                >
+                  Clear all filters
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -101,7 +144,7 @@ export default function EventsPage() {
         isOpen={mobileFilterOpen}
         onClose={() => setMobileFilterOpen(false)}
         filters={filters}
-        onFilterChange={setFilters}
+        onFilterChange={handleFilterChange}
         onReset={handleResetFilters}
         resultCount={filteredEvents.length}
       />

@@ -9,7 +9,10 @@
     "lint": "eslint",
     "refresh-parks": "tsx scripts/refresh-parks.ts",
     "refresh-library": "tsx scripts/refresh-library.ts",
-    "seed-library": "tsx scripts/seed-library.ts"
+    "refresh-gcf": "tsx scripts/refresh-great-country-farms.ts",
+    "refresh-udvar-hazy": "tsx scripts/refresh-udvar-hazy.ts",
+    "seed-library": "tsx scripts/seed-library.ts",
+    "cleanup": "tsx scripts/cleanup-past-events.ts"
   },
   "dependencies": {
     "next": "16.1.3",

@@ -1,8 +1,8 @@
-name: Weekly Parks Refresh
+name: Daily Events Refresh
 
 on:
   schedule:
-    - cron: '0 10 * * 3'
+    - cron: '0 10 * * *'  # Every day at 6am ET (10:00 UTC)
   workflow_dispatch:
 
 jobs:
@@ -20,10 +20,14 @@ jobs:
         run: npm ci
       - name: Run Parks scraper
         run: npm run refresh-parks
+      - name: Run Library scraper
+        run: npm run refresh-library
+      - name: Cleanup past events
+        run: npm run cleanup
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet data/events.json; then
+          if git diff --quiet data/events.json data/events-archive.json 2>/dev/null; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -33,6 +37,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/events.json
-          git commit -m "Auto-refresh Parks events $(date +'%Y-%m-%d')"
+          git add data/events.json data/events-archive.json
+          git commit -m "Auto-refresh events $(date +'%Y-%m-%d')"
           git push

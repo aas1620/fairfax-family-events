@@ -2360,5 +2360,35 @@
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/animal-feeding/021126",
     "source": "fairfax-parks",
     "lastUpdated": "2026-01-21"
+  },
+  {
+    "id": "campfire-fridays-feb20",
+    "title": "Campfire Fridays",
+    "description": "Join us for an evening campfire the whole family can enjoy. Explore…",
+    "type": "one-time",
+    "startDate": "2026-02-20T18:00:00",
+    "endDate": "2026-02-20T19:30:00",
+    "venue": "Hidden Pond Nature Center",
+    "address": "8511 Greeley Blvd",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 38.7867,
+      "lng": -77.2267
+    },
+    "activityTypes": [
+      "adventure"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/campfire-fridays/022026",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-02-21"
   }
 ]

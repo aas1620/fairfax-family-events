@@ -2390,5 +2390,42 @@
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/campfire-fridays/022026",
     "source": "fairfax-parks",
     "lastUpdated": "2026-02-21"
+  },
+  {
+    "id": "gcf-maple-sugar-days",
+    "title": "Maple Sugar Days at Great Country Farms",
+    "description": "Learn how maple syrup is made from tree to table! Watch live demonstrations of tree tapping, sap collection, and syrup boiling. Enjoy pancakes with fresh maple syrup and take home your own bottle.",
+    "type": "one-time",
+    "startDate": "2026-02-21T10:00:00",
+    "endDate": "2026-02-22T16:00:00",
+    "venue": "Great Country Farms",
+    "address": "18780 Foggy Bottom Rd",
+    "city": "Bluemont",
+    "coordinates": {
+      "lat": 39.1067,
+      "lng": -77.8417
+    },
+    "activityTypes": [
+      "nature",
+      "educational",
+      "seasonal"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 18,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "parentHacks": [
+      "The pancake breakfast is included and delicious",
+      "Maple candy in the gift shop is a great souvenir",
+      "Dress warm - you'll be outdoors watching demos"
+    ],
+    "sourceUrl": "https://greatcountryfarms.com/maple-sugar-days",
+    "source": "great-country-farms",
+    "lastUpdated": "2026-01-18"
   }
 ]

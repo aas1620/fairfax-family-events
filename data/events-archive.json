@@ -2457,5 +2457,43 @@
     "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16449252",
     "source": "library",
     "lastUpdated": "2026-03-05"
+  },
+  {
+    "id": "gcf-easter-egg-hunt",
+    "title": "Easter Eggstravaganza",
+    "description": "The biggest Easter egg hunt in Northern Virginia! Over 20,000 eggs hidden across the farm. Meet the Easter Bunny, enjoy hayrides, baby animal cuddles, and spring activities. Egg hunts divided by age group.",
+    "type": "one-time",
+    "startDate": "2026-04-04T09:00:00",
+    "endDate": "2026-04-05T17:00:00",
+    "venue": "Great Country Farms",
+    "address": "18780 Foggy Bottom Rd",
+    "city": "Bluemont",
+    "coordinates": {
+      "lat": 39.1067,
+      "lng": -77.8417
+    },
+    "activityTypes": [
+      "seasonal",
+      "nature",
+      "adventure"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 12
+    },
+    "cost": {
+      "amount": 20,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "parentHacks": [
+      "Bring your own basket - they don't provide them",
+      "Check the egg hunt schedule by age group on arrival",
+      "The baby animals are the real stars",
+      "Book online in advance to guarantee entry"
+    ],
+    "sourceUrl": "https://greatcountryfarms.com/easter",
+    "source": "great-country-farms",
+    "lastUpdated": "2026-01-18"
   }
 ]

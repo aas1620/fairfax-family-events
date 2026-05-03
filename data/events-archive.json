@@ -2495,5 +2495,35 @@
     "sourceUrl": "https://greatcountryfarms.com/easter",
     "source": "great-country-farms",
     "lastUpdated": "2026-01-18"
+  },
+  {
+    "id": "lib-duck-scavenger-hunt-pohick-reg-20260502",
+    "title": "Duck Scavenger Hunt",
+    "description": "ll Day Event Pohick Regional Library Search the children's area during May and learn about Pekin and rubber duck facts!",
+    "type": "one-time",
+    "startDate": "2026-05-02T00:00",
+    "endDate": "2026-05-02T23:59",
+    "venue": "Pohick Regional Library",
+    "address": "6450 Sydenstricker Rd",
+    "city": "Burke",
+    "coordinates": {
+      "lat": 38.7511,
+      "lng": -77.2717
+    },
+    "activityTypes": [
+      "physical-play"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 2
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16809400",
+    "source": "library",
+    "lastUpdated": "2026-05-03"
   }
 ]

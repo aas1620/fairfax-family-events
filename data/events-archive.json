@@ -2525,5 +2525,41 @@
     "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16809400",
     "source": "library",
     "lastUpdated": "2026-05-03"
+  },
+  {
+    "id": "gcf-strawberry-festival",
+    "title": "Strawberry Jubilee",
+    "description": "Pick your own fresh strawberries at the height of the season! Enjoy strawberry-themed treats, live music, farm animals, and playground fun. Strawberry picking included with admission.",
+    "type": "one-time",
+    "startDate": "2026-05-16T09:00:00",
+    "endDate": "2026-05-17T17:00:00",
+    "venue": "Great Country Farms",
+    "address": "18780 Foggy Bottom Rd",
+    "city": "Bluemont",
+    "coordinates": {
+      "lat": 39.1067,
+      "lng": -77.8417
+    },
+    "activityTypes": [
+      "nature",
+      "seasonal"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 15,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "parentHacks": [
+      "Go early - the best berries get picked by noon",
+      "Bring sunscreen - not much shade in the fields",
+      "The strawberry shortcake is worth the extra cost"
+    ],
+    "sourceUrl": "https://greatcountryfarms.com/strawberry-jubilee",
+    "source": "great-country-farms",
+    "lastUpdated": "2026-01-18"
   }
 ]

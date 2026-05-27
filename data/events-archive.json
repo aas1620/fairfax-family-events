@@ -2561,5 +2561,35 @@
     "sourceUrl": "https://greatcountryfarms.com/strawberry-jubilee",
     "source": "great-country-farms",
     "lastUpdated": "2026-01-18"
+  },
+  {
+    "id": "lib-sporty-scavenger-hunt-at--herndon-fo-20260526",
+    "title": "Sporty Scavenger Hunt at Herndon!",
+    "description": "Herndon Fortnightly Library Stop by the information desk for our latest Scavenger Hunt in our children's section!",
+    "type": "one-time",
+    "startDate": "2026-05-26T10:00",
+    "endDate": "2026-05-26T18:00",
+    "venue": "Herndon Fortnightly Library",
+    "address": "768 Center St",
+    "city": "Herndon",
+    "coordinates": {
+      "lat": 38.9697,
+      "lng": -77.3856
+    },
+    "activityTypes": [
+      "physical-play"
+    ],
+    "ageRange": {
+      "min": 3,
+      "max": 5
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16689866",
+    "source": "library",
+    "lastUpdated": "2026-05-27"
   }
 ]

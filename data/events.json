@@ -695,169 +695,18 @@
     "lastUpdated": "2026-01-18"
   },
   {
-    "id": "lib-children-s-display-case-kings-park-20260816",
-    "title": "Children's Display Case",
-    "description": "Registration required. ll Day Event Kings Park Library Display your favorite collection in one of our children's display cases! Whether its something you've collected--rocks, trading cards, figurines, rubber ducks--or something you've created--Lego builds, drawings, sculptures, photos--you can display your favorite things for two weeks in our display case for everyone to see!",
+    "id": "lib-move-it-mondays-dolley-mad-20260817",
+    "title": "Move It Mondays",
+    "description": "resenter: Marta Steenstra Davis Dolley Madison Meeting Room 1, Dolley Madison Meeting Room 2 Dolley Madison Library Join us for free play using our gross motor toys and equipment. No registration required. For children 18 months - 5 years old. Adult Participation and Supervision Required.",
     "type": "one-time",
-    "startDate": "2026-08-16T00:00",
-    "endDate": "2026-08-16T23:59",
-    "venue": "Kings Park Library",
-    "address": "9000 Burke Lake Rd",
-    "city": "Burke",
+    "startDate": "2026-08-17T10:00",
+    "endDate": "2026-08-17T12:00",
+    "venue": "Dolley Madison Library",
+    "address": "1244 Oak Ridge Ave",
+    "city": "McLean",
     "coordinates": {
-      "lat": 38.8061,
-      "lng": -77.2803
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 12
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/14933749",
-    "source": "library",
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "id": "daring-dragonflies-aug16",
-    "title": "Daring Dragonflies",
-    "description": "Learn about the life cycle, behavior and identification of Huntley's…",
-    "type": "one-time",
-    "startDate": "2026-08-16T09:00:00",
-    "endDate": "2026-08-16T10:30:00",
-    "venue": "Huntley Meadows Park",
-    "address": "3701 Lockheed Blvd",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7567,
-      "lng": -77.0989
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 18,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/daring-dragonflies/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "id": "super-snakes-aug16",
-    "title": "Super Snakes",
-    "description": "Join a naturalist to meet live snakes and learn why snakes are…",
-    "type": "one-time",
-    "startDate": "2026-08-16T09:00:00",
-    "endDate": "2026-08-16T10:30:00",
-    "venue": "Burke Lake Park",
-    "address": "7315 Ox Rd",
-    "city": "Fairfax Station",
-    "coordinates": {
-      "lat": 38.7598,
-      "lng": -77.2969
-    },
-    "activityTypes": [
-      "nature",
-      "educational"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 3,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/super-snakes/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "id": "fishing-for-parent-and-child-aug16",
-    "title": "Fishing for Parent and Child",
-    "description": "Learn how to fish alongside your parent or child as you enjoy the…",
-    "type": "one-time",
-    "startDate": "2026-08-16T09:00:00",
-    "endDate": "2026-08-16T10:30:00",
-    "venue": "Lake Fairfax Park",
-    "address": "1400 Lake Fairfax Dr",
-    "city": "Reston",
-    "coordinates": {
-      "lat": 38.9614,
-      "lng": -77.3419
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/fishing-parent-child/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "id": "life-in-the-underworld-aug16",
-    "title": "Life in the Underworld",
-    "description": "Come and explore the \"underworld\" under fallen logs. Discover the…",
-    "type": "one-time",
-    "startDate": "2026-08-16T10:30:00",
-    "endDate": "2026-08-16T12:00:00",
-    "venue": "Burke Lake Park",
-    "address": "7315 Ox Rd",
-    "city": "Fairfax Station",
-    "coordinates": {
-      "lat": 38.7598,
-      "lng": -77.2969
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 4,
-      "max": 99
-    },
-    "cost": {
-      "amount": 8,
-      "per": "person"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/life-underworld/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "id": "lib-sherwood-s-summer-read-ou-sherwood-r-20260816",
-    "title": "Sherwood's Summer Read-Out: Moved Indoors!",
-    "description": "Registration required. Sherwood Meeting Room Sherwood Regional Library Reach your Summer Reading goal at Sherwood! Let Sherwood staff provide the books, games, and reading prizes! This event has been moved indoors to Sherwood's Meeting Room. All ages welcome! No registration required unless you would like a reminder email.",
-    "type": "one-time",
-    "startDate": "2026-08-16T11:00",
-    "endDate": "2026-08-16T12:15",
-    "venue": "Sherwood Regional Library",
-    "address": "2501 Sherwood Hall Ln",
-    "city": "Alexandria",
-    "coordinates": {
-      "lat": 38.7483,
-      "lng": -77.0736
+      "lat": 38.9339,
+      "lng": -77.1772
     },
     "activityTypes": [
       "educational"
@@ -871,47 +720,47 @@
       "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16712005",
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17282901",
     "source": "library",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "mill-in-motion-aug16",
-    "title": "Mill in Motion",
-    "description": "Explore 200-year-old Colvin Run Mill as we grind grain using the…",
+    "id": "lib-under-the-sea-scavenger-h-herndon-fo-20260817",
+    "title": "Under the Sea Scavenger Hunt!",
+    "description": "Herndon Fortnightly Library Stop by the information desk for our latest Scavenger Hunt in our children's section!",
     "type": "one-time",
-    "startDate": "2026-08-16T12:00:00",
-    "endDate": "2026-08-16T13:30:00",
-    "venue": "Colvin Run Mill",
-    "address": "10017 Colvin Run Rd",
-    "city": "Great Falls",
+    "startDate": "2026-08-17T10:00",
+    "endDate": "2026-08-17T18:00",
+    "venue": "Herndon Fortnightly Library",
+    "address": "768 Center St",
+    "city": "Herndon",
     "coordinates": {
-      "lat": 38.9378,
-      "lng": -77.2442
+      "lat": 38.9697,
+      "lng": -77.3856
     },
     "activityTypes": [
-      "educational"
+      "physical-play"
     ],
     "ageRange": {
-      "min": 4,
-      "max": 99
+      "min": 3,
+      "max": 5
     },
     "cost": {
-      "amount": 8,
-      "per": "person"
+      "amount": 0,
+      "per": "free"
     },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/mill-motion/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "exhaustionRating": 4,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17288243",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "lib-kids-comic-club-summer-se-pohick-reg-20260816",
-    "title": "Kids' Comic Club: Summer Series",
-    "description": "Pohick Meeting Room 1, Pohick Meeting Room 2 Pohick Regional Library Do you love graphic novels? Unearth a Story&reg; all summer long by joining our book club dedicated to the library&rsquo;s summer reading book picks! Ages 9-12. June 28 Lightfall: The Girl & the Galdurian by Tim Probert Unfairies by Huw Aaron July 12 The First Cat in Space and the Baby Pirate&rsquo;s Revenge by Mac Barnett Garlic and the Vampire by Bree Paulsen August 16 Winging It by Megan Wagner Lloyd Dream On by Shannon Hale",
+    "id": "lib-bouncing-babies-pohick-reg-20260817",
+    "title": "Bouncing Babies",
+    "description": "Pohick Meeting Room 1, Pohick Meeting Room 2 Pohick Regional Library Songs, rhymes, stories and activities for baby and you. Birth-11 months with adult. Limit 12 babies with caregiver on a first come, first serve basis. Tickets will be distributed at the information desk starting at 10 AM.",
     "type": "one-time",
-    "startDate": "2026-08-16T13:00",
-    "endDate": "2026-08-16T14:00",
+    "startDate": "2026-08-17T10:30",
+    "endDate": "2026-08-17T11:00",
     "venue": "Pohick Regional Library",
     "address": "6450 Sydenstricker Rd",
     "city": "Burke",
@@ -923,137 +772,351 @@
       "educational"
     ],
     "ageRange": {
-      "min": 5,
-      "max": 12
+      "min": 0,
+      "max": 2
     },
     "cost": {
       "amount": 0,
       "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16143661",
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16530996",
     "source": "library",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "lib-little-pages-english-lear-centrevill-20260816",
-    "title": "Little Pages: English Learning Storytime",
-    "description": "Centreville Regional Library Enjoy stories and writing activities designed for kids learning English as a second language. Designed for students Pre-K-3rd Grade.",
+    "id": "lib-preschool-storytime-lorton-lib-20260817",
+    "title": "Preschool Storytime",
+    "description": "Registration required. Lorton Meeting Room Lorton Library Storytime for Ages 3-5 years Join us for stories, songs, movement and early literacy fun! Registration Registration required for all Preschool Children (Ages 3-5 years) attending. *Late arrivals are not guaranteed admission.",
     "type": "one-time",
-    "startDate": "2026-08-16T14:00",
-    "endDate": "2026-08-16T15:00",
-    "venue": "Centreville Regional Library",
-    "address": "14200 St Germain Dr",
-    "city": "Centreville",
+    "startDate": "2026-08-17T10:30",
+    "endDate": "2026-08-17T11:00",
+    "venue": "Lorton Library",
+    "address": "9520 Richmond Hwy",
+    "city": "Lorton",
     "coordinates": {
-      "lat": 38.8406,
-      "lng": -77.4289
+      "lat": 38.7042,
+      "lng": -77.0922
     },
     "activityTypes": [
       "educational"
     ],
     "ageRange": {
-      "min": 5,
-      "max": 12
+      "min": 3,
+      "max": 5
     },
     "cost": {
       "amount": 0,
       "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16496230",
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16525529",
     "source": "library",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "lib-read-to-the-dog-kingstowne-20260816",
-    "title": "Read to the Dog",
-    "description": "Conference Room (E151) Kingstowne Regional Library Register for a 15 minute slot to read to a trained therapy dog. Registration begins at the library in person at 1:30 p.m. and slots fill up quickly. First come, first served. Dogs are certified and trained through PAL (People. Animals. Love.). Bring your own book or choose a library book. Ages 5 to 12.",
+    "id": "lib-baby-steps-kings-park-20260817",
+    "title": "Baby Steps",
+    "description": "resenter: Kings Park YS Kings Park Meeting Room Kings Park Library Are you looking for ways to help your new baby learn, grow, and socialize? Then come join us for early literacy activities, sing alongs, and rhymes designed with you and your baby in mind. This program encourages parent participation and child engagement. Ages: Birth to 18 months",
     "type": "one-time",
-    "startDate": "2026-08-16T14:00",
-    "endDate": "2026-08-16T15:00",
-    "venue": "Kingstowne Library",
-    "address": "6500 Landsdowne Centre",
-    "city": "Alexandria",
+    "startDate": "2026-08-17T10:30",
+    "endDate": "2026-08-17T11:15",
+    "venue": "Kings Park Library",
+    "address": "9000 Burke Lake Rd",
+    "city": "Burke",
     "coordinates": {
-      "lat": 38.7656,
-      "lng": -77.1336
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 12
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16826953",
-    "source": "library",
-    "lastUpdated": "2026-08-16"
-  },
-  {
-    "id": "update-event-is-sold-out-hidde-aug16",
-    "title": "UPDATE: Event is SOLD OUT - Hidden Pond Highlights",
-    "description": "Come explore the many wonders Hidden Pond has to offer. Each family-…",
-    "type": "one-time",
-    "startDate": "2026-08-16T14:00:00",
-    "endDate": "2026-08-16T15:30:00",
-    "venue": "Hidden Pond Nature Center",
-    "address": "8511 Greeley Blvd",
-    "city": "Springfield",
-    "coordinates": {
-      "lat": 38.7867,
-      "lng": -77.2267
+      "lat": 38.8061,
+      "lng": -77.2803
     },
     "activityTypes": [
       "educational"
     ],
     "ageRange": {
       "min": 0,
-      "max": 99
+      "max": 2
     },
     "cost": {
-      "amount": 8,
-      "per": "person"
+      "amount": 0,
+      "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/highlights/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16489166",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "bat-night-aug16",
-    "title": "Bat Night",
-    "description": "Join a naturalist to discover the facts, fiction and folklore about…",
+    "id": "lib-lava-lamp-lab-john-marsh-20260817",
+    "title": "Lava Lamp Lab",
+    "description": "Registration required. John Marshall Meeting Room 1, John Marshall Meeting Room 2 John Marshall Library Mix, bubble, and swirl your way to a colorful science experiment. Create your own lava lamp while exploring the fun science behind how it works. All materials provided. Registration Required. Ages 6-12",
     "type": "one-time",
-    "startDate": "2026-08-16T19:45:00",
-    "endDate": "2026-08-16T21:15:00",
-    "venue": "Huntley Meadows Park",
-    "address": "3701 Lockheed Blvd",
+    "startDate": "2026-08-17T11:00",
+    "endDate": "2026-08-17T12:00",
+    "venue": "John Marshall Library",
+    "address": "6209 Rose Hill Dr",
     "city": "Alexandria",
     "coordinates": {
-      "lat": 38.7567,
-      "lng": -77.0989
+      "lat": 38.7683,
+      "lng": -77.1022
+    },
+    "activityTypes": [
+      "science",
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17065350",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-dino-mite-craft-day-oakton-lib-20260817",
+    "title": "DINO-Mite Craft Day",
+    "description": "Registration required. Oakton Meeting Room 1, Oakton Meeting Room 2 Oakton Library Join us at Oakton library for our dinosaur CRAFT Day to make all things DINOSAUR!",
+    "type": "one-time",
+    "startDate": "2026-08-17T12:30",
+    "endDate": "2026-08-17T13:30",
+    "venue": "Oakton Library",
+    "address": "10304 Lynnhaven Pl",
+    "city": "Oakton",
+    "coordinates": {
+      "lat": 38.8867,
+      "lng": -77.3006
+    },
+    "activityTypes": [
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17290919",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-lego-club-thomas-jef-20260817",
+    "title": "LEGO Club",
+    "description": "Thomas Jefferson Meeting Room 1, Thomas Jefferson Meeting Room 2 Thomas Jefferson Library Do you love LEGO? Use our huge selection of LEGO pieces to build to your heart's content! Draw a Challenge Card for inspiration, dig into our collection of LEGO books, or build freely from your own imagination. Best of all, meet new friends and socialize with kids who love LEGO just as much as you do. Ages 6-12.",
+    "type": "one-time",
+    "startDate": "2026-08-17T13:00",
+    "endDate": "2026-08-17T14:00",
+    "venue": "Thomas Jefferson Library",
+    "address": "7415 Arlington Blvd",
+    "city": "Falls Church",
+    "coordinates": {
+      "lat": 38.8658,
+      "lng": -77.1911
+    },
+    "activityTypes": [
+      "educational",
+      "science"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16775704",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-lego-club-city-of-fa-20260817",
+    "title": "LEGO Club",
+    "description": "City of Fairfax Meeting Room 101A, City of Fairfax Meeting Room 101B City of Fairfax Regional Library Come and Create! Build with LEGO bricks to your heart's content. This is a free-play environment where you can create masterpieces or simply experiment to release your inner architect. No registration necessary. We've got the LEGOs, you bring your imagination. Age 6-12.",
+    "type": "one-time",
+    "startDate": "2026-08-17T14:30",
+    "endDate": "2026-08-17T15:30",
+    "venue": "City of Fairfax Regional Library",
+    "address": "10360 North St",
+    "city": "Fairfax",
+    "coordinates": {
+      "lat": 38.8462,
+      "lng": -77.3064
+    },
+    "activityTypes": [
+      "science"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16827664",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-3d-basics-for-kids-oakton-lib-20260817",
+    "title": "3D Basics for Kids",
+    "description": "Registration required. resenter: Ryder Gee Oakton Meeting Room 1, Oakton Meeting Room 2 Oakton Library Have you ever wanted to learn to make objects using a 3D printer? In this class we are going to learn to use TinkerCAD to create 3D objects to print on the library's 3D printers. For kids ages 6 to 10. 8 seats available. Registration is required. A parent or guardian is need to stay with child. Laptops will be provided. Must have a basic knowledge of computer usage. Your registration will be gi",
+    "type": "one-time",
+    "startDate": "2026-08-17T14:30",
+    "endDate": "2026-08-17T16:00",
+    "venue": "Oakton Library",
+    "address": "10304 Lynnhaven Pl",
+    "city": "Oakton",
+    "coordinates": {
+      "lat": 38.8867,
+      "lng": -77.3006
+    },
+    "activityTypes": [
+      "science",
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17187913",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-unearth-a-movie-ice-age-d-richard-by-20260817",
+    "title": "Unearth a Movie: Ice Age Dawn of the Dinosaurs",
+    "description": "Richard Byrd Meeting Room 1, Richard Byrd Meeting Room 2 Richard Byrd Library Grab your popcorn and have a dino-tastic time at Richard Byrd. We will be watching Ice Age: Dawn of the Dinosaurs (2009). This move is rated PG.",
+    "type": "one-time",
+    "startDate": "2026-08-17T15:00",
+    "endDate": "2026-08-17T17:00",
+    "venue": "Richard Byrd Library",
+    "address": "7250 Commerce St",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 38.7736,
+      "lng": -77.1806
     },
     "activityTypes": [
       "educational"
     ],
     "ageRange": {
-      "min": 6,
-      "max": 99
+      "min": 5,
+      "max": 12
     },
     "cost": {
-      "amount": 8,
-      "per": "person"
+      "amount": 0,
+      "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/bat-night/081626",
-    "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16523235",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-comic-bookaneers-book-clu-dolley-mad-20260817",
+    "title": "Comic Bookaneers Book Club",
+    "description": "Registration required. resenter: Christina Kerndt Dolley Madison Meeting Room 1, Dolley Madison Meeting Room 2 Dolley Madison Library Are you ready to delve into the world of comics? Join the Comic Bookaneers! Our book for August is Bea Wolf by Zach Weinersmith. Read it ahead of time, then join us day of for a discussion! Books Available at the Checkout Desk. Ages 10-17",
+    "type": "one-time",
+    "startDate": "2026-08-17T16:00",
+    "endDate": "2026-08-17T17:00",
+    "venue": "Dolley Madison Library",
+    "address": "1244 Oak Ridge Ave",
+    "city": "McLean",
+    "coordinates": {
+      "lat": 38.9339,
+      "lng": -77.1772
+    },
+    "activityTypes": [
+      "educational",
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16508986",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-maker-monday-kings-park-20260817",
+    "title": "Maker Monday",
+    "description": "Kings Park Meeting Room Kings Park Library Join us for open hours of the Maker Cart. Explore robotics, try out new art forms, and check out STEM tools! Tools to explore include Sphero robots, Cubelets, snap circuits, a Chomp Saw for cardboard creations, STEAM games, origami, and more. Recommended for ages 6+, open to children, teens, and adults. No registration required.",
+    "type": "one-time",
+    "startDate": "2026-08-17T16:00",
+    "endDate": "2026-08-17T17:30",
+    "venue": "Kings Park Library",
+    "address": "9000 Burke Lake Rd",
+    "city": "Burke",
+    "coordinates": {
+      "lat": 38.8061,
+      "lng": -77.2803
+    },
+    "activityTypes": [
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/15191271",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "lib-maker-monday-how-to-build-herndon-fo-20260817",
+    "title": "Maker Monday: How to Build a Circuit Flower",
+    "description": "Herndon Fortnightly Maker Lab Herndon Fortnightly Library Today's Maker Monday: How to Build a Circuit Flower Ages 5-12 with an adult.",
+    "type": "one-time",
+    "startDate": "2026-08-17T16:30",
+    "endDate": "2026-08-17T18:30",
+    "venue": "Herndon Fortnightly Library",
+    "address": "768 Center St",
+    "city": "Herndon",
+    "coordinates": {
+      "lat": 38.9697,
+      "lng": -77.3856
+    },
+    "activityTypes": [
+      "arts"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16975516",
+    "source": "library",
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "sensory-friendly-time-at-the-w-aug18",
@@ -1083,7 +1146,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/watermine/sensory-friendly-time/081826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "sensory-friendly-time-at-our-s-aug19",
@@ -1113,7 +1176,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/franconia/sensory-friendly-special-harbor/081926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "night-sky-tour-at-the-roll-top-aug21",
@@ -1143,7 +1206,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/sky-tour/082126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "annual-begonia-show-and-sale-aug22",
@@ -1173,7 +1236,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/annual-begonia-show-sale/082226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "garden-tour-and-ice-cream-aug22",
@@ -1203,7 +1266,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/garden-tour-ice-cream/082226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "nature-kayaking-aug22",
@@ -1234,7 +1297,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/nature-kayaking/082226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "orienteering-workshop-aug22",
@@ -1264,7 +1327,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/orienteering-workshop/082226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "bat-night-aug22",
@@ -1294,7 +1357,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/bat-night/082226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "birding-for-beginners-aug23",
@@ -1325,7 +1388,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/birding-beginners/082326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "annual-begonia-show-and-sale-aug23",
@@ -1355,7 +1418,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/annual-begonia-show-sale/082326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "kayak-tour-wildlife-of-the-pot-aug28",
@@ -1385,7 +1448,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/kayak-tour-wildlife-potomac/082826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "campfire-fridays-aug28",
@@ -1415,7 +1478,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/campfire-fridays/082826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "family-fun-monarch-migration-aug29",
@@ -1445,7 +1508,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/family-fun-monarch-migration/082926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "clemyjontri-park-open-house-aug30",
@@ -1475,7 +1538,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/clemyjontri-park-open-house/083026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "toddler-take-over-aug31",
@@ -1505,7 +1568,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/toddler-take-over/083126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "titleist-fitting-day-sep01",
@@ -1535,7 +1598,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/laurel-hill/titleist-fitting-day/090126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "night-at-the-nature-center-sep02",
@@ -1565,7 +1628,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/night-nature-center/090226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "family-fun-fridays-sep04",
@@ -1596,7 +1659,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/family-fun-fridays/090426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "kayak-tour-wildlife-of-the-pot-sep04",
@@ -1626,7 +1689,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/kayak-tour-wildlife-potomac/090426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "to-build-a-fire-sep04",
@@ -1658,7 +1721,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/to-build-fire/090426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "family-fishing-at-sunset-sep04",
@@ -1688,7 +1751,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/family-fishing-sunset/090426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "putting-the-animals-to-bed-sep04",
@@ -1718,7 +1781,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/putting-animals-bed/090426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "paw-paw-prowl-sep05",
@@ -1749,7 +1812,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/paw-paw-prowl/090526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "fishing-for-parent-and-child-sep05",
@@ -1779,7 +1842,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/fishing-parent-child/090526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "making-ice-and-ice-cream-at-wa-sep05",
@@ -1809,7 +1872,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/make-ice-cream-walney/090526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "campfire-saturdays-stargazing-sep05",
@@ -1841,7 +1904,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/campfire-saturdays-stargazing/090526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "putting-the-animals-to-bed-sep05",
@@ -1871,7 +1934,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/putting-animals-bed/090526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "water-sketch-hike-sep06",
@@ -1903,7 +1966,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/water-sketch-hike/090626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "intro-to-kayaking-sep06",
@@ -1933,7 +1996,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/intro-kayaking/090626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "mill-in-motion-sep06",
@@ -1963,7 +2026,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/mill-motion/090626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "cain-s-branch-archaeology-tour-sep06",
@@ -1995,7 +2058,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/sully-historic/cains-branch-archaeology-tour/090626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "women-of-walney-walking-tour-sep06",
@@ -2025,7 +2088,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/women-walney-walking-tour/090626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "putting-the-animals-to-bed-sep06",
@@ -2055,7 +2118,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/putting-animals-bed/090626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "little-hands-on-the-farm-sep08",
@@ -2085,7 +2148,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/little-hands-2-3/090826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "mason-tea-sep10",
@@ -2115,7 +2178,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/historic-huntley/mason-tea/091026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "fall-vsga-adapted-golf-clinics-sep11",
@@ -2145,7 +2208,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/burke-lake/fall-vsga-adapted-clinics/091126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "creepy-crawly-construction-cre-sep11",
@@ -2175,7 +2238,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/creepy-crawly-construction-crew/091126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "fungi-and-friends-sep11",
@@ -2205,7 +2268,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/fungi-friends/091126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "putting-the-animals-to-bed-sep11",
@@ -2235,7 +2298,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/putting-animals-bed/091126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "dog-daze-sep12",
@@ -2265,7 +2328,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/watermine/dog-daze/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "are-you-going-to-eat-that-sep12",
@@ -2296,7 +2359,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/are-you-going-to-eat-that/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "veterans-in-nature-sep12",
@@ -2327,7 +2390,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/veterans-nature/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "virginia-native-american-festi-sep12",
@@ -2357,7 +2420,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/virginia-native-american-festival/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "critter-catch-sep12",
@@ -2387,7 +2450,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/critter-catch/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "pooh-bear-picnic-sep12",
@@ -2417,7 +2480,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/pooh-bear-picnic/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "spanish-language-historic-site-sep12",
@@ -2447,7 +2510,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/sully-historic-site/spanish-site-tour/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "bug-bingo-sep12",
@@ -2478,7 +2541,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/bug-bingo/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "ice-cream-at-historic-huntley-sep12",
@@ -2508,7 +2571,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/historic-huntley/ice-cream/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "lafayette-s-legacy-a-spy-game-sep12",
@@ -2538,7 +2601,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/sully-historic-site/lafayettes-legacy-spy-game/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "family-campout-sep12",
@@ -2568,12 +2631,12 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/family-campout/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "sunset-soiree-pressed-fern-art-sep12",
-    "title": "Sunset Soiree: Pressed Fern Art Workshop",
-    "description": "Choose between 5 p.m., 5:45 p.m. or 6:30 p.m. for a 30-minute workshop. Join us…",
+    "id": "sunset-soiree-kokedama-worksho-sep12",
+    "title": "Sunset Soiree - Kokedama Workshop",
+    "description": "Join us after-hours in the Horticulture Center. View the glasshouse…",
     "type": "one-time",
     "startDate": "2026-09-12T17:00:00",
     "endDate": "2026-09-12T18:30:00",
@@ -2585,21 +2648,20 @@
       "lng": -77.1153
     },
     "activityTypes": [
-      "arts",
       "educational"
     ],
     "ageRange": {
-      "min": 0,
+      "min": 18,
       "max": 99
     },
     "cost": {
       "amount": 8,
       "per": "person"
     },
-    "exhaustionRating": 2,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/pressed-fern-art-workshop/091226",
+    "exhaustionRating": 1,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/sunset-soiree-kokedama-workshop/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "sunset-soiree-forest-incense-w-sep12",
@@ -2630,7 +2692,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/sunset-soiree-forest-incense/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "sunset-soiree-fern-and-flower--sep12",
@@ -2660,11 +2722,11 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/sunset-soiree-fern-flower/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
-    "id": "sunset-soiree-kokedama-worksho-sep12",
-    "title": "Sunset Soiree: Kokedama Workshop",
+    "id": "sunset-soiree-pressed-fern-art-sep12",
+    "title": "Sunset Soiree: Pressed Fern Art Workshop",
     "description": "Choose between 5 p.m., 5:45 p.m. or 6:30 p.m. for a 30-minute workshop. Join us…",
     "type": "one-time",
     "startDate": "2026-09-12T17:00:00",
@@ -2677,6 +2739,7 @@
       "lng": -77.1153
     },
     "activityTypes": [
+      "arts",
       "educational"
     ],
     "ageRange": {
@@ -2687,10 +2750,10 @@
       "amount": 8,
       "per": "person"
     },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/kokedama-workshop/091226",
+    "exhaustionRating": 2,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/pressed-fern-art-workshop/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "boardwalk-astronomy-sep12",
@@ -2721,7 +2784,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/boardwalk-astronomy/091226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "pc9-club-championship-tee-time-sep13",
@@ -2752,7 +2815,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/pinecrest/pc9-club-championship/091326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "cider-making-sep13",
@@ -2782,7 +2845,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/cider-making/091326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "paths-of-freedom-seekers-sep13",
@@ -2812,7 +2875,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/freedom-seekers/091326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "family-fun-fridays-sep18",
@@ -2843,7 +2906,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/family-fun-fridays/091826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "fall-vsga-adapted-golf-clinics-sep18",
@@ -2873,7 +2936,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/burke-lake/fall-vsga-adapted-clinics/091826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "gcf-pumpkin-harvest",
@@ -2941,7 +3004,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/cider-making/091926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "online-book-talk-society-of-ma-sep19",
@@ -2971,7 +3034,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/online-book-talk-magical-botanists/091926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "cider-making-sep20",
@@ -3001,7 +3064,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/cider-making/092026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "women-of-walney-walking-tour-sep20",
@@ -3031,7 +3094,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/women-walney-walking-tour/092026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "fall-vsga-adapted-golf-clinics-sep25",
@@ -3061,7 +3124,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/burke-lake/fall-vsga-adapted-clinics/092526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "bug-fest-sep26",
@@ -3091,7 +3154,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/bug-fest/092626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "cider-making-sep26",
@@ -3121,7 +3184,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/cider-making/092626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "cider-making-sep27",
@@ -3151,7 +3214,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/cider-making/092726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
   },
   {
     "id": "paths-of-freedom-seekers-sep27",
@@ -3181,6 +3244,221 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/paths-freedom-seekers/092726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "family-fun-fridays-oct02",
+    "title": "Family Fun Fridays",
+    "description": "Come stay and play at our Nature Center on select Fridays of every…",
+    "type": "one-time",
+    "startDate": "2026-10-02T12:00:00",
+    "endDate": "2026-10-02T13:30:00",
+    "venue": "Riverbend Park",
+    "address": "8700 Potomac Hills St",
+    "city": "Great Falls",
+    "coordinates": {
+      "lat": 39.0178,
+      "lng": -77.2447
+    },
+    "activityTypes": [
+      "nature",
+      "physical-play"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/family-fun-fridays/100226",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "fall-vsga-adapted-golf-clinics-oct02",
+    "title": "Fall VSGA Adapted Golf Clinics",
+    "description": "Virginia State Golf Association Adaptive Golf Clinics are back!  …",
+    "type": "one-time",
+    "startDate": "2026-10-02T13:30:00",
+    "endDate": "2026-10-02T15:00:00",
+    "venue": "Twin Lakes Golf Course",
+    "address": "6201 Union Mill Rd",
+    "city": "Clifton",
+    "coordinates": {
+      "lat": 38.8078,
+      "lng": -77.4311
+    },
+    "activityTypes": [
+      "educational"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 1,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/burke-lake/fall-vsga-adapted-clinics/100226",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "four-club-fall-classic-jeffers-oct03",
+    "title": "Four Club Fall Classic – Jefferson Cup Tournament Series (Tee time start)",
+    "description": "Participants compete in a 9-hole stroke play tournament where…",
+    "type": "one-time",
+    "startDate": "2026-10-03T09:00:00",
+    "endDate": "2026-10-03T10:30:00",
+    "venue": "Twin Lakes Golf Course",
+    "address": "6201 Union Mill Rd",
+    "city": "Clifton",
+    "coordinates": {
+      "lat": 38.8078,
+      "lng": -77.4311
+    },
+    "activityTypes": [
+      "science",
+      "arts",
+      "physical-play",
+      "educational"
+    ],
+    "ageRange": {
+      "min": 13,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/jefferson/four-club-classic/100326",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "goblin-golf-oct03",
+    "title": "Goblin Golf",
+    "description": "Halloween arrives early at the Burke Lake Park mini-golf course. Enjoy a…",
+    "type": "one-time",
+    "startDate": "2026-10-03T11:00:00",
+    "endDate": "2026-10-03T12:30:00",
+    "venue": "Burke Lake Park",
+    "address": "7315 Ox Rd",
+    "city": "Fairfax Station",
+    "coordinates": {
+      "lat": 38.7598,
+      "lng": -77.2969
+    },
+    "activityTypes": [
+      "seasonal"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/goblin-golf/100326",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "fall-festival-scramble-tee-tim-oct04",
+    "title": "Fall Festival Scramble (Tee time start)",
+    "description": "Join us for a fun festive wrap-up event to end your 2026 golf season…",
+    "type": "one-time",
+    "startDate": "2026-10-04T09:00:00",
+    "endDate": "2026-10-04T10:30:00",
+    "venue": "Twin Lakes Golf Course",
+    "address": "6201 Union Mill Rd",
+    "city": "Clifton",
+    "coordinates": {
+      "lat": 38.8078,
+      "lng": -77.4311
+    },
+    "activityTypes": [
+      "science",
+      "arts"
+    ],
+    "ageRange": {
+      "min": 7,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/pinecrest/fall-festival-scramble/100426",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "goblin-golf-oct04",
+    "title": "Goblin Golf",
+    "description": "Halloween arrives early at the Burke Lake Park mini-golf course. Enjoy a…",
+    "type": "one-time",
+    "startDate": "2026-10-04T11:00:00",
+    "endDate": "2026-10-04T12:30:00",
+    "venue": "Burke Lake Park",
+    "address": "7315 Ox Rd",
+    "city": "Fairfax Station",
+    "coordinates": {
+      "lat": 38.7598,
+      "lng": -77.2969
+    },
+    "activityTypes": [
+      "seasonal"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/goblin-golf/100426",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
+  },
+  {
+    "id": "fall-vsga-adapted-golf-clinics-oct09",
+    "title": "Fall VSGA Adapted Golf Clinics",
+    "description": "Virginia State Golf Association Adaptive Golf Clinics are back!  …",
+    "type": "one-time",
+    "startDate": "2026-10-09T13:30:00",
+    "endDate": "2026-10-09T15:00:00",
+    "venue": "Twin Lakes Golf Course",
+    "address": "6201 Union Mill Rd",
+    "city": "Clifton",
+    "coordinates": {
+      "lat": 38.8078,
+      "lng": -77.4311
+    },
+    "activityTypes": [
+      "educational"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 1,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/golf/burke-lake/fall-vsga-adapted-clinics/100926",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-08-17"
   }
 ]

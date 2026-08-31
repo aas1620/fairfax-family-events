@@ -2591,5 +2591,41 @@
     "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16689866",
     "source": "library",
     "lastUpdated": "2026-05-27"
+  },
+  {
+    "id": "gcf-sunflower-festival",
+    "title": "Sunflower Festival",
+    "description": "Walk through acres of stunning sunflowers in full bloom! Cut your own sunflowers to take home, enjoy photo ops, hayrides, and summer farm activities. Perfect for family photos.",
+    "type": "one-time",
+    "startDate": "2026-08-15T09:00:00",
+    "endDate": "2026-08-30T17:00:00",
+    "venue": "Great Country Farms",
+    "address": "18780 Foggy Bottom Rd",
+    "city": "Bluemont",
+    "coordinates": {
+      "lat": 39.1067,
+      "lng": -77.8417
+    },
+    "activityTypes": [
+      "nature",
+      "seasonal"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 15,
+      "per": "person"
+    },
+    "exhaustionRating": 2,
+    "parentHacks": [
+      "Early morning or golden hour for the best photos",
+      "Bring scissors or garden shears for cutting sunflowers",
+      "The fields are HOT in August - bring water and hats"
+    ],
+    "sourceUrl": "https://greatcountryfarms.com/sunflower-festival",
+    "source": "great-country-farms",
+    "lastUpdated": "2026-01-18"
   }
 ]

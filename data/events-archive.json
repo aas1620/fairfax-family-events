@@ -2627,5 +2627,35 @@
     "sourceUrl": "https://greatcountryfarms.com/sunflower-festival",
     "source": "great-country-farms",
     "lastUpdated": "2026-01-18"
+  },
+  {
+    "id": "night-at-the-nature-center-sep02",
+    "title": "Night at the Nature Center",
+    "description": "Step into the park after dark and discover what comes alive when the…",
+    "type": "one-time",
+    "startDate": "2026-09-02T17:30:00",
+    "endDate": "2026-09-02T19:00:00",
+    "venue": "Hidden Pond Nature Center",
+    "address": "8511 Greeley Blvd",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 38.7867,
+      "lng": -77.2267
+    },
+    "activityTypes": [
+      "nature"
+    ],
+    "ageRange": {
+      "min": 3,
+      "max": 99
+    },
+    "cost": {
+      "amount": 8,
+      "per": "person"
+    },
+    "exhaustionRating": 3,
+    "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/night-nature-center/090226",
+    "source": "fairfax-parks",
+    "lastUpdated": "2026-09-03"
   }
 ]

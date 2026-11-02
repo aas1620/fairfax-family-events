@@ -2657,5 +2657,43 @@
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/night-nature-center/090226",
     "source": "fairfax-parks",
     "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "gcf-pumpkin-harvest",
+    "title": "Pumpkin Harvest Festival",
+    "description": "The ultimate fall family experience! Pick your own pumpkins, navigate the corn maze, enjoy hayrides, apple cider donuts, and dozens of farm activities. Don't miss the giant slides and jumping pillows!",
+    "type": "one-time",
+    "startDate": "2026-09-19T09:00:00",
+    "endDate": "2026-11-01T17:00:00",
+    "venue": "Great Country Farms",
+    "address": "18780 Foggy Bottom Rd",
+    "city": "Bluemont",
+    "coordinates": {
+      "lat": 39.1067,
+      "lng": -77.8417
+    },
+    "activityTypes": [
+      "nature",
+      "seasonal",
+      "adventure"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 99
+    },
+    "cost": {
+      "amount": 20,
+      "per": "person"
+    },
+    "exhaustionRating": 5,
+    "parentHacks": [
+      "Buy tickets online to skip the line",
+      "Pumpkins are pay-by-the-pound in addition to admission",
+      "Bring a wagon to haul pumpkins and tired kids",
+      "The corn maze has an easy route marked for young kids"
+    ],
+    "sourceUrl": "https://greatcountryfarms.com/pumpkin-harvest",
+    "source": "great-country-farms",
+    "lastUpdated": "2026-01-18"
   }
 ]

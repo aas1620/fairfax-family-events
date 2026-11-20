@@ -659,12 +659,12 @@
     "lastUpdated": "2026-01-15"
   },
   {
-    "id": "lib-baby-lapsit-storytime-thomas-jef-20261119",
-    "title": "Baby Lapsit Storytime",
-    "description": "Thomas Jefferson Meeting Room 1, Thomas Jefferson Meeting Room 2 Thomas Jefferson Library Bond with your baby through songs, movement, and storytelling! Baby Lapsit Storytime is designed for the youngest learners - bounce along to fun songs, stories, and fingerplays all while building an early literacy foundation. Tickets will be available on a first-come-first-served basis beginning at 10:15 AM. Ages 0-18 months with adult.",
+    "id": "lib-playdate-cafe-thomas-jef-20261120",
+    "title": "Playdate Cafe",
+    "description": "Thomas Jefferson Meeting Room 1, Thomas Jefferson Meeting Room 2 Thomas Jefferson Library Playdate cafe is our regular weekly time for kids and adults to enjoy free-play and socialize in an informal setting - blocks, cars, puppets, music, and more. Ages 0-5 with caregiver. No registration required.",
     "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T11:00",
+    "startDate": "2026-11-20T10:00",
+    "endDate": "2026-11-20T11:00",
     "venue": "Thomas Jefferson Library",
     "address": "7415 Arlington Blvd",
     "city": "Falls Church",
@@ -684,26 +684,26 @@
       "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17135647",
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17135719",
     "source": "library",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
-    "id": "lib-baby-rhyme-time-martha-was-20261119",
-    "title": "Baby Rhyme Time",
-    "description": "Registration required. Martha Washington Meeting Room Martha Washington Library This lapsit story and song time is for the youngest patrons and their caregivers. Age birth - 17 months with adult. Please register children only. If you have questions about the appropriate age for a program, its content, or accommodations, please call the branch at 703-768-6700 (option 4).",
+    "id": "lib-my-gym-burke-cent-20261120",
+    "title": "My Gym",
+    "description": "resenter: My Gym Burke Centre Meeting Room 116, Burke Centre Meeting Room 117 Burke Centre Library Develop your child's large motor skills with physical exercise and games. Age 1-3 years with adult. NEW! Tickets for both the 10:30AM and 11:15AM session will be distributed at 10:00AM on a first come, first serve basis. Sponsored by the Friends of Burke Centre Library.",
     "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T11:00",
-    "venue": "Martha Washington Library",
-    "address": "6614 Fort Hunt Rd",
-    "city": "Alexandria",
+    "startDate": "2026-11-20T10:30",
+    "endDate": "2026-11-20T11:00",
+    "venue": "Burke Centre Library",
+    "address": "5935 Freds Oak Rd",
+    "city": "Burke",
     "coordinates": {
-      "lat": 38.7342,
-      "lng": -77.0578
+      "lat": 38.7934,
+      "lng": -77.2892
     },
     "activityTypes": [
-      "educational"
+      "music"
     ],
     "ageRange": {
       "min": 0,
@@ -713,48 +713,140 @@
       "amount": 0,
       "per": "free"
     },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17520647",
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16387216",
     "source": "library",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
-    "id": "lib-preschool-storytime-sherwood-r-20261119",
-    "title": "Preschool Storytime",
-    "description": "Registration required. resenter: Natalie Sherwood Meeting Room Sherwood Regional Library Join us for stories, songs, movement, and early literacy fun for preschoolers! For ages 3-5 with caregiver. Registration is required. Siblings are welcome, but please register only the child aged 3-5 years.",
+    "id": "lib-little-sprout-yoga-city-of-fa-20261120",
+    "title": "Little Sprout Yoga",
+    "description": "Registration required. City of Fairfax Meeting Room 101A, City of Fairfax Meeting Room 101B City of Fairfax Regional Library A yoga class for babies! Bring a mat or towel and join the fun with stories, songs, and yoga. Program facilitated by Feels Like OM Family Yoga. Co-sponsored by the Friends of the City of Fairfax Regional Library. Registration Please register. Age 0-24 months with adult. Please note late arrivals will not be admitted more than 10 minutes into class.",
     "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T11:00",
-    "venue": "Sherwood Regional Library",
-    "address": "2501 Sherwood Hall Ln",
-    "city": "Alexandria",
+    "startDate": "2026-11-20T10:30",
+    "endDate": "2026-11-20T11:15",
+    "venue": "City of Fairfax Regional Library",
+    "address": "10360 North St",
+    "city": "Fairfax",
     "coordinates": {
-      "lat": 38.7483,
-      "lng": -77.0736
+      "lat": 38.8462,
+      "lng": -77.3064
     },
     "activityTypes": [
-      "educational"
+      "educational",
+      "music"
     ],
     "ageRange": {
-      "min": 3,
-      "max": 5
+      "min": 0,
+      "max": 2
     },
     "cost": {
       "amount": 0,
       "per": "free"
     },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/15692794",
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16600656",
     "source": "library",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
-    "id": "lib-bilingual-spanish-english-city-of-fa-20261119",
-    "title": "Bilingual (Spanish-English) Storytime",
-    "description": "resenter: City of Fairfax Regional Library Staff City of Fairfax Meeting Room 101A, City of Fairfax Meeting Room 101B City of Fairfax Regional Library Hola amigos! Hi Friends! Do you enjoy singing and dancing to silly songs and listening to stories in Spanish and English? Ages 0 &ndash; 5 &iquest;Te encantas cantar y bailar con canciones divertidas y escuchar cuentos en espa&ntilde;ol e ingl&eacute;s? Edades 0 - 5 Registration No registration No es necesario registrarse.",
+    "id": "lib-library-playdate-at-hernd-herndon-fo-20261120",
+    "title": "Library Playdate at Herndon Library",
+    "description": "Herndon Fortnightly Meeting Room Herndon Fortnightly Library Children from 0-5 can come to play with toys and meet new friends. Caregivers will have an opportunity to socialize as well. A caregiver must accompany the child.",
     "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T11:15",
+    "startDate": "2026-11-20T10:30",
+    "endDate": "2026-11-20T11:30",
+    "venue": "Herndon Fortnightly Library",
+    "address": "768 Center St",
+    "city": "Herndon",
+    "coordinates": {
+      "lat": 38.9697,
+      "lng": -77.3856
+    },
+    "activityTypes": [
+      "music"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 2
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17563723",
+    "source": "library",
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "id": "lib-playdate-cafe-martha-was-20261120",
+    "title": "Playdate Cafe",
+    "description": "Martha Washington Meeting Room, Martha Washington Meeting Room 104B Martha Washington Library Come and chat with other caregivers while the kids play together. If you have questions about the appropriate age for a program, its content, or accommodations, please call the branch at 703-768-6700 (option 4).",
+    "type": "one-time",
+    "startDate": "2026-11-20T10:30",
+    "endDate": "2026-11-20T11:30",
+    "venue": "Martha Washington Library",
+    "address": "6614 Fort Hunt Rd",
+    "city": "Alexandria",
+    "coordinates": {
+      "lat": 38.7342,
+      "lng": -77.0578
+    },
+    "activityTypes": [
+      "educational",
+      "music"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 2
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17514944",
+    "source": "library",
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "id": "lib-my-gym-siblings-burke-cent-20261120",
+    "title": "My Gym: Siblings",
+    "description": "resenter: My Gym Burke Centre Meeting Room 116, Burke Centre Meeting Room 117 Burke Centre Library Develop your child's large motor skills with physical exercise and games. Age 1-5 years with adult. NEW! Tickets for both the 10:30AM and 11:15AM session will be distributed at 10:00AM on a first come, first serve basis. Sponsored by the Friends of Burke Centre Library.",
+    "type": "one-time",
+    "startDate": "2026-11-20T11:15",
+    "endDate": "2026-11-20T11:45",
+    "venue": "Burke Centre Library",
+    "address": "5935 Freds Oak Rd",
+    "city": "Burke",
+    "coordinates": {
+      "lat": 38.7934,
+      "lng": -77.2892
+    },
+    "activityTypes": [
+      "music"
+    ],
+    "ageRange": {
+      "min": 0,
+      "max": 2
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 2,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16387251",
+    "source": "library",
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "id": "lib-story-time-yoga-city-of-fa-20261120",
+    "title": "Story Time Yoga",
+    "description": "Registration required. resenter: Erin Cashin City of Fairfax Meeting Room 101A, City of Fairfax Meeting Room 101B City of Fairfax Regional Library Stories, Songs, and Yoga! Join the fun with stories, songs, and yoga. In person! Bring a mat or beach towel. Program facilitated by Feels Like OM Family Yoga. Program co-sponsored by the Friends of the City of Fairfax Regional Library - thank you! Registration Please register. Age 0-6 years with adult. One Yoga registration is allowed per day. Please ",
+    "type": "one-time",
+    "startDate": "2026-11-20T11:30",
+    "endDate": "2026-11-20T12:15",
     "venue": "City of Fairfax Regional Library",
     "address": "10360 North St",
     "city": "Fairfax",
@@ -774,108 +866,17 @@
       "per": "free"
     },
     "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16683693",
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16600982",
     "source": "library",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
-    "id": "lib-toddlers-twos-storytime-a-herndon-fo-20261119",
-    "title": "Toddlers & Twos Storytime at Herndon Library",
-    "description": "Herndon Fortnightly Meeting Room Herndon Fortnightly Library Enjoy an early literacy storytime geared towards toddlers, with stories, songs and fingerplays. Ages 18-36 months with adult. No registration. Space is limited. Please arrive early. Late arrivals are not guaranteed admission. --- Tips for a Successful Storytime Sit, sing, & listen to stories together. The more you participate in storytime, the more children will participate, enjoy, and learn from storytime. Please be timely. Storytimes",
+    "id": "lib-kids-crafting-hour-dotted-kingstowne-20261120",
+    "title": "Kids Crafting Hour: Dotted Leaf Painting",
+    "description": "Registration required. resenter: Samantha Magee Conference Room (E151) Kingstowne Regional Library Calling all crafters! Come to Kingstowne Library to learn how to make dotted leaf paintings, inspired by the Pointillism art style. All materials will be provided. Ages 5-10. Please only register your child for this event.",
     "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T11:30",
-    "venue": "Herndon Fortnightly Library",
-    "address": "768 Center St",
-    "city": "Herndon",
-    "coordinates": {
-      "lat": 38.9697,
-      "lng": -77.3856
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 0,
-      "max": 2
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17155772",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-culmore-library-outreach--events-at--20261119",
-    "title": "Culmore Library Outreach: Toddler/Preschool Storytime",
-    "description": "Culmore United Methodist Church Events at Other Locations Join us for a playdate with friend and stories, songs and crafts. Babies to age 5 with caregiver. No registration required. Doors close when room capacity is reached. Ages 18 months - 5 years old with an adult. Siblings welcome. This event is held offsite at: Culmore Church 3400 Charles St, Falls Church, VA 22041",
-    "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T12:00",
-    "venue": "Events at Other Locations",
-    "address": "Fairfax County",
-    "city": "Fairfax",
-    "coordinates": {
-      "lat": 38.8462,
-      "lng": -77.3064
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 0,
-      "max": 2
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17818590",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-storytime-diversi-n-with--dolley-mad-20261119",
-    "title": "Storytime Diversión with the Smithsonian National Museum of the American Latino",
-    "description": "Registration required. Dolley Madison Meeting Room 1, Dolley Madison Meeting Room 2 Dolley Madison Library Storytime Event! Join us for storytime in collaboration with the Smithsonian National Museum of the American Latino. Museum educators will share two books: My Sister&rsquo;s Quincea&ntilde;era by Delia Ruiz and Elisa Chavarri, and Please Pass the Tamales by Silvia L&oacute;pez and Mirelle Ortega, followed by hands-on activities. The National Museum of the American Latino advances understand",
-    "type": "one-time",
-    "startDate": "2026-11-19T10:30",
-    "endDate": "2026-11-19T12:00",
-    "venue": "Dolley Madison Library",
-    "address": "1244 Oak Ridge Ave",
-    "city": "McLean",
-    "coordinates": {
-      "lat": 38.9339,
-      "lng": -77.1772
-    },
-    "activityTypes": [
-      "educational",
-      "history"
-    ],
-    "ageRange": {
-      "min": 3,
-      "max": 5
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/14911555",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-wellness-sensory-zone-kingstowne-20261119",
-    "title": "Wellness & Sensory Zone",
-    "description": "Registration required. Meeting Room (E103) Kingstowne Regional Library Step into a World of Wellness & Sensory Experiences. Visit our Wellness and Sensory Zone to relax, connect, and recharge. This space provides sensory-friendly environment and engaging activities to support relaxation, connection, and well-being, catering to visitors of different ages and backgrounds. Activities may include: Flexible, relaxing seating options Interactive sensory elements Puzzles and brain games Loose parts and",
-    "type": "one-time",
-    "startDate": "2026-11-19T15:00",
-    "endDate": "2026-11-19T17:00",
+    "startDate": "2026-11-20T15:30",
+    "endDate": "2026-11-20T16:30",
     "venue": "Kingstowne Library",
     "address": "6500 Landsdowne Centre",
     "city": "Alexandria",
@@ -884,127 +885,6 @@
       "lng": -77.1336
     },
     "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 12
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17585811",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-read-to-the-dog-asiago-burke-cent-20261119",
-    "title": "Read to the Dog - Asiago",
-    "description": "resenter: Sue Hayn Burke Centre Meeting Room 116, Burke Centre Meeting Room 117 Burke Centre Library Build confidence and a love of reading by sharing a story with a gentle, trained therapy dog! In this relaxed, judgment-free program, children ages 5&ndash;12 can practice reading aloud at their own pace while our furry friend listens patiently. Bring your favorite book or pick one from the library to read aloud to Asiago. Reading sessions cannot be extended due to late arrival. Program is a firs",
-    "type": "one-time",
-    "startDate": "2026-11-19T16:00",
-    "endDate": "2026-11-19T16:15",
-    "venue": "Burke Centre Library",
-    "address": "5935 Freds Oak Rd",
-    "city": "Burke",
-    "coordinates": {
-      "lat": 38.7934,
-      "lng": -77.2892
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 12
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/16786089",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-chess-club-pohick-reg-20261119",
-    "title": "Chess Club",
-    "description": "Pohick Meeting Room 1, Pohick Meeting Room 2 Pohick Regional Library Learn game openings, strategies, tactics and more. Players paired with others of similar skill. Cosponsored by the Friends of the Pohick Regional Library. Ages 8-16.",
-    "type": "one-time",
-    "startDate": "2026-11-19T16:30",
-    "endDate": "2026-11-19T17:30",
-    "venue": "Pohick Regional Library",
-    "address": "6450 Sydenstricker Rd",
-    "city": "Burke",
-    "coordinates": {
-      "lat": 38.7511,
-      "lng": -77.2717
-    },
-    "activityTypes": [
-      "science"
-    ],
-    "ageRange": {
-      "min": 5,
-      "max": 12
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 2,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/14598619",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-spanish-bilingual-storyti-centrevill-20261119",
-    "title": "Spanish Bilingual Storytime / Cuentos Bilingües",
-    "description": "Centreville Conference Room Centreville Regional Library Enjoy stories and activities in English and Spanish / Disfruta cuentos y actividades en ingl&eacute;s y espa&ntilde;ol. For children age 3-8 with an adult. / Para los ni&ntilde;os de 3-8 a&ntilde;os con un(a) adulto(a).",
-    "type": "one-time",
-    "startDate": "2026-11-19T17:00",
-    "endDate": "2026-11-19T17:30",
-    "venue": "Centreville Regional Library",
-    "address": "14200 St Germain Dr",
-    "city": "Centreville",
-    "coordinates": {
-      "lat": 38.8406,
-      "lng": -77.4289
-    },
-    "activityTypes": [
-      "educational"
-    ],
-    "ageRange": {
-      "min": 3,
-      "max": 5
-    },
-    "cost": {
-      "amount": 0,
-      "per": "free"
-    },
-    "exhaustionRating": 1,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17327500",
-    "source": "library",
-    "lastUpdated": "2026-11-19"
-  },
-  {
-    "id": "lib-mini-medics-oakton-lib-20261119",
-    "title": "Mini Medics",
-    "description": "Registration required. resenter: Riti Deshpande Oakton Meeting Room 1, Oakton Meeting Room 2 Oakton Library Learn about first-aid and the body through activities and crafts! For children ages 5-10. Seating is limited to 20 kids. Registration required.",
-    "type": "one-time",
-    "startDate": "2026-11-19T17:00",
-    "endDate": "2026-11-19T17:45",
-    "venue": "Oakton Library",
-    "address": "10304 Lynnhaven Pl",
-    "city": "Oakton",
-    "coordinates": {
-      "lat": 38.8867,
-      "lng": -77.3006
-    },
-    "activityTypes": [
-      "science",
       "arts"
     ],
     "ageRange": {
@@ -1016,9 +896,69 @@
       "per": "free"
     },
     "exhaustionRating": 2,
-    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17502557",
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17420519",
     "source": "library",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "id": "lib-chess-club-for-kids-tysons-pim-20261120",
+    "title": "Chess Club for Kids",
+    "description": "Tysons-Pimmit Meeting Room 1, Tysons-Pimmit Meeting Room 2 Tysons-Pimmit Regional Library Learn chess and have fun at the same time! Each club meeting will involve practice games and chess instruction from a student volunteer. The recommended age is 6-12. Beginners are welcome!",
+    "type": "one-time",
+    "startDate": "2026-11-20T16:30",
+    "endDate": "2026-11-20T17:30",
+    "venue": "Tysons-Pimmit Regional Library",
+    "address": "7584 Leesburg Pike",
+    "city": "Falls Church",
+    "coordinates": {
+      "lat": 38.9044,
+      "lng": -77.2069
+    },
+    "activityTypes": [
+      "physical-play"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17360702",
+    "source": "library",
+    "lastUpdated": "2026-11-20"
+  },
+  {
+    "id": "lib-reading-buddies-dolley-mad-20261120",
+    "title": "Reading Buddies",
+    "description": "Registration required. Dolley Madison Meeting Room 1, Dolley Madison Meeting Room 2 Dolley Madison Library Read, Learn, and Grow Together! Join us for a new student-led program - Reading Buddies! Read one-on-one with one of our teen volunteers from a book we've provided or one you've picked out yourself! Registration is required. This program is for children Pre-K through 5th grade. All attendees must be registered individually. Please include age in registration.",
+    "type": "one-time",
+    "startDate": "2026-11-20T16:30",
+    "endDate": "2026-11-20T17:30",
+    "venue": "Dolley Madison Library",
+    "address": "1244 Oak Ridge Ave",
+    "city": "McLean",
+    "coordinates": {
+      "lat": 38.9339,
+      "lng": -77.1772
+    },
+    "activityTypes": [
+      "physical-play"
+    ],
+    "ageRange": {
+      "min": 5,
+      "max": 12
+    },
+    "cost": {
+      "amount": 0,
+      "per": "free"
+    },
+    "exhaustionRating": 4,
+    "sourceUrl": "https://librarycalendar.fairfaxcounty.gov/event/17662153",
+    "source": "library",
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "feeding-day-nov21",
@@ -1048,7 +988,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/feeding-day/112126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "sully-illuminated-nov21",
@@ -1078,7 +1018,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/sully-historic-site/illuminated/112126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-skate-and-dance-night-f-nov21",
@@ -1108,7 +1048,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/franconia/family-skate-night-rodeo/112126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "take-the-turkey-dip-nov21",
@@ -1138,7 +1078,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/franconia/take-the-turkey-dip/112126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "animals-after-hours-nov21",
@@ -1168,7 +1108,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/animals-after-hours/112126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "update-event-is-sold-out-intro-nov23",
@@ -1199,7 +1139,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/introduction-telescopes/112326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "time-for-turkeys-nov25",
@@ -1229,7 +1169,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/time-turkeys/112526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "american-indian-games-and-craf-nov25",
@@ -1261,7 +1201,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/american-indian-games-crafts/112526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "nature-storytelling-nov25",
@@ -1291,7 +1231,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/nature-storytelling/112526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-fun-fridays-nov27",
@@ -1322,7 +1262,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/family-fun-fridays/112726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "campfire-fridays-nov27",
@@ -1352,7 +1292,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/campfire-fridays/112726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "lichens-sketch-hike-nov28",
@@ -1383,7 +1323,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/lichens-stretch-hike/112826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "hike-with-a-naturalist-nov28",
@@ -1414,7 +1354,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-fairfax/hike-with-naturalist/112826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-owl-outing-nov28",
@@ -1445,7 +1385,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/family-owl-outing/112826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "dark-sky-patch-daisy-and-brown-nov28",
@@ -1475,7 +1415,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/dark-sky-patch/112826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "nebulas-star-clusters-galaxies-nov30",
@@ -1506,7 +1446,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/nebula-star-galaxy-oh-my/113026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "wildschool-wednesdays-for-home-dec02",
@@ -1536,7 +1476,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/wildschool-wednesdays-homeschoolers/120226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "introduction-to-astronomy-dec03",
@@ -1566,7 +1506,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/introduction-astronomy/120326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-fun-fridays-dec04",
@@ -1597,7 +1537,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/family-fun-fridays/120426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "lake-accotink-after-dark-lante-dec04",
@@ -1627,7 +1567,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/lantern-lore/120426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "owl-outing-dec05",
@@ -1657,7 +1597,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/owl-outing/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-bird-walk-dec05",
@@ -1688,7 +1628,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/winter-bird-walk/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "drawing-rocks-minerals-and-gem-dec05",
@@ -1719,7 +1659,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/drawing-rocks-minerals-gemstones/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-trees-and-landscapes-sk-dec05",
@@ -1751,7 +1691,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/winter-trees-landscapes-sketch-hike/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "to-build-a-fire-dec05",
@@ -1783,7 +1723,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/to-build-fire/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "children-s-holiday-shopping-dec05",
@@ -1813,7 +1753,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/childrens-holiday-shopping/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-wonderland-dec05",
@@ -1843,7 +1783,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-wonderland/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "cozy-creations-and-winter-well-dec05",
@@ -1873,7 +1813,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/cozy-creations-winter-wellness-workshop/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "warmth-at-walney-dec05",
@@ -1905,7 +1845,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/warmth-walney/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "candy-cane-mini-golf-dec05",
@@ -1935,7 +1875,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/oakmont/candy-cane-mini-golf/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-on-the-farm-dec05",
@@ -1965,7 +1905,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/holiday-farm/120526",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "penguins-and-polar-bears-dec06",
@@ -1995,7 +1935,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/penguins-polar-bears/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "children-s-holiday-shopping-dec06",
@@ -2025,7 +1965,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/childrens-holiday-shopping/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-wonderland-dec06",
@@ -2055,7 +1995,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-wonderland/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "origami-workshop-holiday-tree-dec06",
@@ -2087,7 +2027,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/origami-workshop-holiday-tree/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "making-ice-and-ice-cream-at-wa-dec06",
@@ -2117,7 +2057,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/make-ice-cream-walney/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "naturally-crafted-dec06",
@@ -2147,7 +2087,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/naturally-crafted/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-owl-outing-dec06",
@@ -2178,7 +2118,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/family-owl-outing/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "flying-squirrel-campfire-dec06",
@@ -2209,7 +2149,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/flying-squirrel-campfire/120626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-nutrition-myths-what-r-dec08",
@@ -2239,7 +2179,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/healthy-strides/holiday-nutrition-myths/120826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "telescope-observing-for-beginn-dec08",
@@ -2269,7 +2209,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/telescope-observing-beginners/120826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "wildschool-wednesdays-for-home-dec09",
@@ -2299,7 +2239,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/wildschool-wednesdays-homeschoolers/120926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "animal-feeding-dec09",
@@ -2329,7 +2269,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/animal-feeding/120926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "night-sky-tour-at-the-roll-top-dec10",
@@ -2359,7 +2299,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/night-sky-tour/121026",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-on-the-farm-dec11",
@@ -2389,7 +2329,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/holiday-farm/121126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "naturalist-s-brew-winter-night-dec11",
@@ -2420,7 +2360,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/naturalist-brew-winter-nights-hot-cocoa/121126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-fun-excellent-evergreen-dec12",
@@ -2451,7 +2391,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/family-fun-excellent-evergreens/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "signs-of-the-beaver-sketch-hik-dec12",
@@ -2483,7 +2423,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/huntley-meadows/signs-beaver-sketch-hike/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "santa-s-critters-and-craft-dec12",
@@ -2513,7 +2453,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/santas-critters-craft/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-wonderland-dec12",
@@ -2543,7 +2483,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-wonderland/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "santa-at-the-mill-dec12",
@@ -2575,7 +2515,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/santa-mill/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-engineering-challenge-dec12",
@@ -2605,7 +2545,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/holiday-engineering-challenge/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "caroling-wagon-ride-and-campfi-dec12",
@@ -2635,7 +2575,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/park-news/eclawrence/caroling-wagon-ride-campfire/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "swimming-with-santa-dec12",
@@ -2665,7 +2605,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/spring-hill/swimming-santa/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-on-the-farm-dec12",
@@ -2695,7 +2635,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/holiday-farm/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "astronomy-festival-dec12",
@@ -2725,7 +2665,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/astronomy-festival/121226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-wonderland-dec13",
@@ -2755,7 +2695,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-wonderland/121326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "santa-at-the-mill-dec13",
@@ -2787,7 +2727,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/santa-mill/121326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "cocoa-and-crafts-dec13",
@@ -2819,7 +2759,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/cocoa-crafts/121326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "the-despised-five-meet-winter--dec13",
@@ -2849,7 +2789,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/despised-five/121326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "animal-pajama-party-dec13",
@@ -2880,7 +2820,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-oaks/animal-pajama-party/121326",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "find-your-way-in-the-night-sky-dec14",
@@ -2910,7 +2850,7 @@
     "exhaustionRating": 2,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/find-way-night-sky-star-maps/121426",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "wildschool-wednesdays-for-home-dec16",
@@ -2940,7 +2880,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/lake-accotink/wildschool-wednesdays-homeschoolers/121626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "writing-workshop-frozen-stakes-dec16",
@@ -2970,7 +2910,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/green-spring/writing-workshop-frozen-stakes/121626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "night-at-the-nature-center-dec16",
@@ -3000,7 +2940,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/hidden-pond/night-nature-center/121626",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "planet-adventure-night-dec17",
@@ -3030,7 +2970,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/turner-farm/planet-adventure-night/121726",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-fun-fridays-dec18",
@@ -3061,7 +3001,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/riverbend/family-fun-fridays/1218226",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-on-the-farm-dec18",
@@ -3091,7 +3031,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/holiday-farm/121826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-lantern-tour-dec18",
@@ -3122,7 +3062,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/holiday-lantern-tour/121826",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "colonial-tea-tasting-at-cabell-dec19",
@@ -3152,7 +3092,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/colonial-tea-teasting-cabells-mill/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "winter-wonderland-dec19",
@@ -3182,7 +3122,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/burke-lake/winter-wonderland/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "forgotten-treasure-the-america-dec19",
@@ -3213,7 +3153,7 @@
     "exhaustionRating": 1,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/eclawrence/forgotten-treasure-american-chestnut/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-greetings-dec19",
@@ -3243,7 +3183,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/holiday-greetings/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-ice-show-dec19",
@@ -3273,7 +3213,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/mount-vernon/holiday-ice-show/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-on-the-farm-dec19",
@@ -3303,7 +3243,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/frying-pan-park/holiday-farm/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-lantern-tour-dec19",
@@ -3334,7 +3274,7 @@
     "exhaustionRating": 4,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/holiday-lantern-tour/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "family-skate-and-dance-holiday-dec19",
@@ -3364,7 +3304,7 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/reccenter/franconia/family-skate-night-tacky-sweater/121926",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   {
     "id": "holiday-wrappings-dec20",
@@ -3394,6 +3334,6 @@
     "exhaustionRating": 3,
     "sourceUrl": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/holiday-wrappings/122126",
     "source": "fairfax-parks",
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   }
 ]
